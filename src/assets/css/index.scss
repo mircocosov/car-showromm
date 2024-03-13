@@ -1,0 +1,22 @@
+@import "@/assets/css/config";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+h1 {
+  @include heading-1;
+}
+
+img {
+  display: block;
+}
+
+body {
+  @include paragraph-1;
+
+  background: $white;
+  color: $black;
+}

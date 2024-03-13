@@ -1,0 +1,31 @@
+// colors
+
+$white: #fff;
+$red: #f80000;
+$black: #2a2a2a;
+$gray: #adadad;
+
+// styles
+
+$radius: 10px;
+$transition: 0.6s;
+
+// typography
+
+@mixin heading-1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+@mixin paragraph-1 {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@mixin paragraph-2 {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
