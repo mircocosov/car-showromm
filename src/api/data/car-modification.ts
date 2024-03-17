@@ -15,3 +15,8 @@ export const carModificationsData: CarModification[] = [
     model: carModelsData[1],
   },
 ];
+
+// Models
+
+//Ламборгини Галардо 0
+//Мерседес С500 1

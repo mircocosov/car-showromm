@@ -16,3 +16,13 @@ export const carModelsData: CarModel[] = [
     class: carClassesData[1],
   },
 ];
+
+// Brands
+
+// Lamborgini 0
+// Mersedes-Benz 1
+
+//Classes
+
+// Спорткар 0
+// Бизнес 1

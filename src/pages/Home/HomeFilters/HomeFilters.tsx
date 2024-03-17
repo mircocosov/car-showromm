@@ -3,7 +3,7 @@ import { useCarClasses } from "@/api/car-classes";
 import { useCarModels } from "@/api/car-models";
 import { useCarModifications } from "@/api/car-modification";
 import { useState } from "react";
-import "./HomeChooseCar.scss";
+import "./HomeFilters.scss";
 
 export default function HomeFilters() {
   const [classId, setClassId] = useState<string | null>(null);
