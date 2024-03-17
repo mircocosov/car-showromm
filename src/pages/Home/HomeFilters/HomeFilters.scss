@@ -1,0 +1,26 @@
+@import "@/assets/css/config";
+
+.Home__ChooseCar__container {
+  display: flex;
+  flex-direction: row;
+  background-color: $black;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 10%;
+}
+
+.Home__ChooseCar__select {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+  background: $black;
+  border: none;
+  color: $white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: flex;
+  text-align: center;
+  outline: none;
+}
