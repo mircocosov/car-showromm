@@ -1,0 +1,31 @@
+@import '@/assets/css/config';
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.main {
+  width: 100%;
+  outline: none;
+}
+
+.popover {
+  z-index: 1;
+  overflow: hidden;
+  max-height: 300px;
+  outline: none;
+
+  .container[data-status='initial'] &,
+  .container[data-status='close'] & {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  .container[data-status='open'] &,
+  .container[data-status='close'] & {
+    transition:
+      $transition opacity,
+      $transition max-height;
+  }
+}

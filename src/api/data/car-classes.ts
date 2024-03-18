@@ -9,4 +9,24 @@ export const carClassesData: CarClass[] = [
     id: "1",
     name: "Бизнес",
   },
+  {
+    id: "2",
+    name: "SUV",
+  },
+  {
+    id: "3",
+    name: "Хэтчбек",
+  },
+  {
+    id: "4",
+    name: "Седан",
+  },
+  {
+    id: "5",
+    name: "Пикап",
+  },
+  {
+    id: "6",
+    name: "Минивэн",
+  },
 ];

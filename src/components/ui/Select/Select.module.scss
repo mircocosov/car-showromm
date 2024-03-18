@@ -1,0 +1,62 @@
+@import "@/assets/css/config";
+
+.inputContainer {
+  cursor: pointer;
+
+  .items {
+    max-height: 300px;
+    width: 100%;
+    background: $black;
+    border: 1px solid $gray-4;
+    transition: $transition border-color;
+    overflow-y: auto;
+
+    .withPopover.error & {
+      border-color: $red;
+    }
+
+    .withPopover[data-placement="bottom"] & {
+      border-radius: 0 0 $radius $radius;
+      border-top: none;
+    }
+
+    .withPopover[data-placement="top"] & {
+      border-radius: $radius $radius 0 0;
+      border-bottom: 0;
+    }
+  }
+
+  .item {
+    padding: 12px 14px;
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover,
+    &.active {
+      background: $white;
+    }
+  }
+
+  .itemsNothing {
+    padding: 12px 14px;
+  }
+}
+
+.input {
+  .withPopover:not(.inputtable) & {
+    pointer-events: none;
+    color: $white;
+  }
+}
+
+.chevronIcon {
+  transition: $transition;
+
+  .withPopover[data-placement="bottom"][data-status="open"] & {
+    transform: rotate(180deg);
+
+    &:hover {
+      transform: rotate(180deg) scale($scale);
+    }
+  }
+}

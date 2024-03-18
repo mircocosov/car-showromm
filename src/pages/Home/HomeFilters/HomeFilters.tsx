@@ -4,11 +4,13 @@ import { useCarModels } from "@/api/car-models";
 import { useCarModifications } from "@/api/car-modification";
 import { useState } from "react";
 import "./HomeFilters.scss";
+import Select from "@/components/ui/Select";
 
 export default function HomeFilters() {
   const [classId, setClassId] = useState<string | null>(null);
   const [brandId, setBrandId] = useState<string | null>(null);
   const [modelId, setModelId] = useState<string | null>(null);
+  const [modificationId, setModificationId] = useState<string | null>(null);
 
   const carClasses = useCarClasses();
   const carBrands = useCarBrands({ classId: classId ?? undefined });
@@ -23,53 +25,40 @@ export default function HomeFilters() {
   });
 
   return (
-    <div className={"Home__ChooseCar__container"}>
-      <select
-        className={"Home__ChooseCar__select"}
-        onChange={(event) => setClassId(event.target.value)}
-      >
-        {carClasses.map((class_) => (
-          <option value={class_.id} key={class_.id}>
-            {class_.name}
-          </option>
-        ))}
-      </select>
+    <div className="Home__ChooseCar__container">
+      <Select
+        className="Home__ChooseCar__select"
+        onChange={setClassId}
+        items={carClasses.map((class_) => ({
+          key: class_.id,
+          value: class_.name,
+        }))}
+      />
 
-      <select
-        className={"Home__ChooseCar__select"}
-        onChange={(event) => setBrandId(event.target.value)}
-      >
-        {carBrands.map((brand) => (
-          <option value={brand.id} key={brand.id}>
-            {brand.name}
-          </option>
-        ))}
-      </select>
+      <Select
+        className="Home__ChooseCar__select"
+        onChange={setBrandId}
+        items={carBrands.map((brand) => ({ key: brand.id, value: brand.name }))}
+      />
 
-      <select
-        className={"Home__ChooseCar__select"}
-        onChange={(event) => setModelId(event.target.value)}
-      >
-        {carModels.map((model) => (
-          <option value={model.id} key={model.id}>
-            {model.name}
-          </option>
-        ))}
-      </select>
+      <Select
+        className="Home__ChooseCar__select"
+        onChange={setModelId}
+        items={carModels.map((model) => ({ key: model.id, value: model.name }))}
+      />
 
-      <select className={"Home__ChooseCar__select"}>
-        {carModifications.map((modification) => (
-          <option value={modification.id} key={modification.id}>
-            {modification.startDate.getMonth() + 1}
-            {"."}
-            {modification.startDate.getFullYear()}
-            {" - "}
-            {modification.endDate.getMonth() + 1}
-            {"."}
-            {modification.endDate.getFullYear()}
-          </option>
-        ))}
-      </select>
+      <Select
+        className="Home__ChooseCar__select"
+        onChange={setModificationId}
+        items={carModifications.map((modification) => ({
+          key: modification.id,
+          value: `${
+            modification.startDate.getMonth() + 1
+          }.${modification.startDate.getFullYear()} - ${
+            modification.endDate.getMonth() + 1
+          }.${modification.endDate.getFullYear()}`,
+        }))}
+      />
     </div>
   );
 }

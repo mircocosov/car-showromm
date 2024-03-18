@@ -8,9 +8,8 @@ export const useCarModifications = (
   if (params) {
     return carModificationsData.filter(
       (modification) =>
-        !params.modelId ||
-        (modification.model.id === params.modelId && !params.brandId) ||
-        modification.model.brand.id === params.brandId
+        (!params.modelId || modification.model.id === params.modelId) &&
+        (!params.brandId || modification.model.brand.id === params.brandId)
     );
   }
   return carModificationsData;
