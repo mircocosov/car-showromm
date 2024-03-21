@@ -1,16 +1,16 @@
-import { ReactNode } from 'react'
-import { useFormError, FormError } from '@/lib/form-error'
-import classNames from 'classnames'
-import MountTransition from '@/components/ui/MountTransition'
-import styles from './ControlContainer.module.scss'
+import { ReactNode } from "react";
+import { useFormError, FormError } from "@/lib/form-error";
+import classNames from "classnames";
+import MountTransition from "@/components/ui/MountTransition";
+import styles from "./ControlContainer.module.scss";
 
 export interface ControlContainerProps {
-  className?: string
-  controlId?: string
-  label?: string
-  postscript?: string
-  error?: FormError
-  children?: ReactNode
+  className?: string;
+  controlId?: string;
+  label?: string;
+  postscript?: string;
+  error?: FormError;
+  children?: ReactNode;
 }
 
 export default function ControlContainer({
@@ -21,7 +21,7 @@ export default function ControlContainer({
   error,
   children,
 }: ControlContainerProps) {
-  const errorMsg = useFormError(error)
+  const errorMsg = useFormError(error);
 
   return (
     <section className={classNames(styles.container, className)}>
@@ -40,5 +40,5 @@ export default function ControlContainer({
       </MountTransition>
       {postscript && <p className={styles.postscript}>{postscript}</p>}
     </section>
-  )
+  );
 }

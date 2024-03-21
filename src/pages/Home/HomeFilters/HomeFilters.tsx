@@ -28,28 +28,39 @@ export default function HomeFilters() {
     <div className="Home__ChooseCar__container">
       <Select
         className="Home__ChooseCar__select"
-        onChange={setClassId}
+        onChange={(val) => setClassId((val ?? null) as string | null)}
+        value={classId ?? undefined}
+        inputtable
         items={carClasses.map((class_) => ({
           key: class_.id,
           value: class_.name,
         }))}
+        placeholder="class"
       />
 
       <Select
         className="Home__ChooseCar__select"
-        onChange={setBrandId}
+        onChange={(val) => setBrandId((val ?? null) as string | null)}
+        value={brandId ?? undefined}
+        inputtable
         items={carBrands.map((brand) => ({ key: brand.id, value: brand.name }))}
+        placeholder="brand"
       />
 
       <Select
         className="Home__ChooseCar__select"
-        onChange={setModelId}
+        onChange={(val) => setModelId((val ?? null) as string | null)}
+        value={modelId ?? undefined}
+        inputtable
         items={carModels.map((model) => ({ key: model.id, value: model.name }))}
+        placeholder="model"
       />
 
       <Select
         className="Home__ChooseCar__select"
-        onChange={setModificationId}
+        onChange={(val) => setModificationId((val ?? null) as string | null)}
+        value={modificationId ?? undefined}
+        inputtable
         items={carModifications.map((modification) => ({
           key: modification.id,
           value: `${
@@ -58,6 +69,7 @@ export default function HomeFilters() {
             modification.endDate.getMonth() + 1
           }.${modification.endDate.getFullYear()}`,
         }))}
+        placeholder="modefication"
       />
     </div>
   );

@@ -1,11 +1,11 @@
-@import '@/assets/css/config';
+@import "@/assets/css/config";
 
 .container {
   display: flex;
   flex-shrink: 0;
   width: 24px;
   height: 24px;
-  stroke: $gray-1;
+  stroke: $white;
   stroke-width: 1.5px;
   transition: $transition;
 

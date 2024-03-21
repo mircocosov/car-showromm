@@ -36,7 +36,7 @@ interface Props {
 }
 
 export default function Icon({ icon, className }: Props) {
-  return 1;
+  return "";
   const Icon = useMemo(() => {
     switch (icon) {
       case "times":

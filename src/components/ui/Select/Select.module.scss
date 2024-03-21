@@ -3,50 +3,69 @@
 .inputContainer {
   cursor: pointer;
 
-  .items {
-    max-height: 300px;
-    width: 100%;
-    background: $black;
-    border: 1px solid $gray-4;
-    transition: $transition border-color;
-    overflow-y: auto;
-
-    .withPopover.error & {
-      border-color: $red;
-    }
-
-    .withPopover[data-placement="bottom"] & {
-      border-radius: 0 0 $radius $radius;
-      border-top: none;
-    }
-
-    .withPopover[data-placement="top"] & {
-      border-radius: $radius $radius 0 0;
-      border-bottom: 0;
-    }
+  .withPopover[data-placement="bottom"][data-status="open"] & {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-color: transparent;
   }
 
-  .item {
-    padding: 12px 14px;
-    transition: $transition;
-    cursor: pointer;
-
-    &:hover,
-    &.active {
-      background: $white;
-    }
-  }
-
-  .itemsNothing {
-    padding: 12px 14px;
+  .withPopover[data-placement="top"][data-status="open"] & {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-color: transparent;
   }
 }
 
 .input {
   .withPopover:not(.inputtable) & {
     pointer-events: none;
-    color: $white;
+    color: $black;
   }
+}
+
+.items {
+  max-height: 400px;
+  width: 100%;
+  overflow: auto;
+  background: $black;
+  border: 1px solid $white;
+  transition: $transition border-color;
+  ::-webkit-scrollbar {
+    background-color: none;
+  }
+
+  ::-webkit-scrollbar-button {
+    color: $black;
+  }
+
+  .withPopover.error & {
+    border-color: $red;
+  }
+
+  .withPopover[data-placement="bottom"] & {
+    border-radius: 0 0 $radius $radius;
+    border-top: none;
+  }
+
+  .withPopover[data-placement="top"] & {
+    border-radius: $radius $radius 0 0;
+    border-bottom: 0;
+  }
+}
+
+.item {
+  padding: 12px 14px;
+  transition: $transition;
+  cursor: pointer;
+
+  &:hover,
+  &.active {
+    background: $gray-1;
+  }
+}
+
+.itemsNothing {
+  padding: 12px 14px;
 }
 
 .chevronIcon {
