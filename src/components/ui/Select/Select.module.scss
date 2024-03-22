@@ -30,13 +30,6 @@
   background: $black;
   border: 1px solid $white;
   transition: $transition border-color;
-  ::-webkit-scrollbar {
-    background-color: none;
-  }
-
-  ::-webkit-scrollbar-button {
-    color: $black;
-  }
 
   .withPopover.error & {
     border-color: $red;
@@ -51,6 +44,16 @@
     border-radius: $radius $radius 0 0;
     border-bottom: 0;
   }
+}
+
+.items::-webkit-scrollbar {
+  background: none;
+  width: 7px;
+}
+
+.items::-webkit-scrollbar-thumb {
+  background: $white;
+  border-radius: 100vh;
 }
 
 .item {

@@ -17,4 +17,5 @@ export interface CarModification {
   startDate: Date;
   endDate: Date;
   model: CarModel;
+  image: string;
 }

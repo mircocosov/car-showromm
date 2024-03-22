@@ -6,11 +6,18 @@ import { useState } from "react";
 import "./HomeFilters.scss";
 import Select from "@/components/ui/Select";
 
-export default function HomeFilters() {
+interface Props {
+  modificationId: string | null;
+  setModificationId: React.Dispatch<React.SetStateAction<string | null>>;
+}
+
+export default function HomeFilters({
+  modificationId,
+  setModificationId,
+}: Props) {
   const [classId, setClassId] = useState<string | null>(null);
   const [brandId, setBrandId] = useState<string | null>(null);
   const [modelId, setModelId] = useState<string | null>(null);
-  const [modificationId, setModificationId] = useState<string | null>(null);
 
   const carClasses = useCarClasses();
   const carBrands = useCarBrands({ classId: classId ?? undefined });
@@ -69,7 +76,7 @@ export default function HomeFilters() {
             modification.endDate.getMonth() + 1
           }.${modification.endDate.getFullYear()}`,
         }))}
-        placeholder="modefication"
+        placeholder="modification"
       />
     </div>
   );
