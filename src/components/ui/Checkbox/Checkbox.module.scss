@@ -1,0 +1,39 @@
+@import '@/assets/css/config';
+
+.container {
+  width: auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border: 1px solid $gray-2;
+  border-radius: $radius;
+  background: $white;
+  transition: $transition;
+
+  .main.error & {
+    border-color: $red;
+  }
+}
+
+.checkboxIcon {
+  .main.error & {
+    stroke: $red;
+  }
+
+  .main:not(.active) & {
+    stroke: $white;
+  }
+}

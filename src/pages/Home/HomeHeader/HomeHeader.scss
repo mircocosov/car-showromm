@@ -7,10 +7,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5%;
+  gap: 12%;
 }
 
 .container__button {
+  font-family: "GT Walsheim LC";
   width: 200px;
   height: 100px;
   background: $black;

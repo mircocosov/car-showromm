@@ -5,7 +5,6 @@ export default function HomeHeader() {
     <div className={"header__container"}>
       <button className={"container__button"}>HOME</button>
       <button className={"container__button"}>ABOUT US</button>
-      <button className={"container__button"}>SERVICES</button>
       <svg
         className={"container__icon"}
         xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +19,6 @@ export default function HomeHeader() {
         ></path>
       </svg>
       <button className={"container__button"}>SHOP</button>
-      <button className={"container__button"}>INVENTORY</button>
       <button className={"container__button"}>CONTACT</button>
     </div>
   );

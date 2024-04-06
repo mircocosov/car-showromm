@@ -320,4 +320,270 @@ export const carModelsData: CarModel[] = [
     class: carClassesData[4],
   },
   //Chrysler
+  {
+    id: "51",
+    name: "300",
+    brand: carBrandsData[10],
+    class: carClassesData[4],
+  },
+  {
+    id: "52",
+    name: "Pacifica",
+    brand: carBrandsData[10],
+    class: carClassesData[6],
+  },
+  {
+    id: "53",
+    name: "Pacifica Plug-In Hybrid",
+    brand: carBrandsData[10],
+    class: carClassesData[6],
+  },
+  //Ford
+  {
+    id: "54",
+    name: "Focus",
+    brand: carBrandsData[11],
+    class: carClassesData[3],
+  },
+  {
+    id: "55",
+    name: "Mustang",
+    brand: carBrandsData[11],
+    class: carClassesData[0],
+  },
+  {
+    id: "56",
+    name: "F150",
+    brand: carBrandsData[11],
+    class: carClassesData[5],
+  },
+  {
+    id: "57",
+    name: "Kuga",
+    brand: carBrandsData[11],
+    class: carClassesData[2],
+  },
+  {
+    id: "58",
+    name: "Transit",
+    brand: carBrandsData[11],
+    class: carClassesData[6],
+  },
+  //Jeep
+  {
+    id: "59",
+    name: "Grand Cherokee",
+    brand: carBrandsData[12],
+    class: carClassesData[2],
+  },
+  {
+    id: "60",
+    name: "Compass",
+    brand: carBrandsData[12],
+    class: carClassesData[2],
+  },
+  {
+    id: "61",
+    name: "Gladiator Texas Trail",
+    brand: carBrandsData[12],
+    class: carClassesData[5],
+  },
+  {
+    id: "62",
+    name: "Wrangler",
+    brand: carBrandsData[12],
+    class: carClassesData[2],
+  },
+  {
+    id: "63",
+    name: "Renegade",
+    brand: carBrandsData[12],
+    class: carClassesData[2],
+  },
+  //Chevrolet
+  {
+    id: "64",
+    name: "Camaro",
+    brand: carBrandsData[13],
+    class: carClassesData[0],
+  },
+  {
+    id: "65",
+    name: "Malibu",
+    brand: carBrandsData[13],
+    class: carClassesData[4],
+  },
+  {
+    id: "66",
+    name: "Lacetti",
+    brand: carBrandsData[13],
+    class: carClassesData[3],
+  },
+  {
+    id: "67",
+    name: "Tahoe",
+    brand: carBrandsData[13],
+    class: carClassesData[5],
+  },
+  {
+    id: "68",
+    name: "Orlando",
+    brand: carBrandsData[13],
+    class: carClassesData[6],
+  },
+  //Hyundai
+  {
+    id: "69",
+    name: "Sonata",
+    brand: carBrandsData[14],
+    class: carClassesData[1],
+  },
+  {
+    id: "70",
+    name: "Tucson",
+    brand: carBrandsData[14],
+    class: carClassesData[2],
+  },
+  {
+    id: "71",
+    name: "Palisade",
+    brand: carBrandsData[14],
+    class: carClassesData[2],
+  },
+  {
+    id: "72",
+    name: "Santa-Fe",
+    brand: carBrandsData[14],
+    class: carClassesData[2],
+  },
+  {
+    id: "73",
+    name: "Solaris",
+    brand: carBrandsData[14],
+    class: carClassesData[4],
+  },
+  //Kia
+  {
+    id: "74",
+    name: "K8",
+    brand: carBrandsData[15],
+    class: carClassesData[4],
+  },
+  {
+    id: "75",
+    name: "Sorento",
+    brand: carBrandsData[15],
+    class: carClassesData[2],
+  },
+  {
+    id: "76",
+    name: "Stinger",
+    brand: carBrandsData[15],
+    class: carClassesData[0],
+  },
+  {
+    id: "77",
+    name: "Carnival",
+    brand: carBrandsData[15],
+    class: carClassesData[6],
+  },
+  {
+    id: "78",
+    name: "Mohave",
+    brand: carBrandsData[15],
+    class: carClassesData[5],
+  },
+  //Nissan
+  {
+    id: "79",
+    name: "GT-R",
+    brand: carBrandsData[16],
+    class: carClassesData[0],
+  },
+  {
+    id: "80",
+    name: "Qashqai",
+    brand: carBrandsData[16],
+    class: carClassesData[2],
+  },
+  {
+    id: "81",
+    name: "Note",
+    brand: carBrandsData[16],
+    class: carClassesData[3],
+  },
+  {
+    id: "82",
+    name: "Serena",
+    brand: carBrandsData[16],
+    class: carClassesData[6],
+  },
+  {
+    id: "83",
+    name: "Navara",
+    brand: carBrandsData[16],
+    class: carClassesData[5],
+  },
+  //Skoda
+  {
+    id: "84",
+    name: "Octavia",
+    brand: carBrandsData[17],
+    class: carClassesData[4],
+  },
+  {
+    id: "85",
+    name: "Kodiaq",
+    brand: carBrandsData[17],
+    class: carClassesData[2],
+  },
+  {
+    id: "86",
+    name: "Felicia",
+    brand: carBrandsData[17],
+    class: carClassesData[5],
+  },
+  {
+    id: "87",
+    name: "Roomster",
+    brand: carBrandsData[17],
+    class: carClassesData[6],
+  },
+  {
+    id: "88",
+    name: "Superb",
+    brand: carBrandsData[17],
+    class: carClassesData[4],
+  },
+  //Opel
+  {
+    id: "89",
+    name: "Astra",
+    brand: carBrandsData[18],
+    class: carClassesData[4],
+  },
+  {
+    id: "90",
+    name: "Grandland",
+    brand: carBrandsData[18],
+    class: carClassesData[2],
+  },
+  {
+    id: "91",
+    name: "Zafira",
+    brand: carBrandsData[18],
+    class: carClassesData[6],
+  },
+  {
+    id: "92",
+    name: "Vectra",
+    brand: carBrandsData[18],
+    class: carClassesData[4],
+  },
+  {
+    id: "93",
+    name: "Corsa",
+    brand: carBrandsData[18],
+    class: carClassesData[3],
+  },
 ];
