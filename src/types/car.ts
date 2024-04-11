@@ -11,3 +11,16 @@ export interface CarModel {
   brand: CarBrand;
   class: CarClass;
 }
+
+export interface CarModification {
+  id: string;
+  startDate: Date;
+  endDate: Date;
+  model: CarModel;
+  image: string;
+  engineVolume: number;
+  enginePower: number;
+  year: number;
+  acceleration: number;
+  color: string;
+}

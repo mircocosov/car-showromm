@@ -8,18 +8,31 @@ interface Props {
 export default function HomeMain({ modificationId }: Props) {
   return (
     <div className={"main__container"}>
-      <span className={"main__prefix"}>FIND YOUR DREAM CAR</span>
-      <img
-        src={carModificationsData[Number(modificationId) ?? 0].image}
-        alt="Car"
-        className="main__image"
-      />
+      <div className="main__container__image">
+        <span className={"main__prefix"}>FIND YOUR DREAM CAR</span>
+        <img
+          src={carModificationsData[Number(modificationId) ?? 0].image}
+          alt="Car"
+          className="main__image"
+        />
+      </div>
       <div className="main__modal">
-        <p>Объем двигателя: {}</p>
-        <p>Количество лошадинных сил: {}</p>
-        <p>Год выпуска: {}</p>
-        <p>Разгон до 100 км/ч: {}</p>
-        <p>Цвет: {}</p>
+        <p>
+          Объем двигателя:{" "}
+          {carModificationsData[Number(modificationId) ?? 0].engineVolume}
+        </p>
+        <p>
+          Количество лошадинных сил:{" "}
+          {carModificationsData[Number(modificationId) ?? 0].enginePower}
+        </p>
+        <p>
+          Год выпуска: {carModificationsData[Number(modificationId) ?? 0].year}
+        </p>
+        <p>
+          Разгон до 100 км/ч:{" "}
+          {carModificationsData[Number(modificationId) ?? 0].acceleration}
+        </p>
+        <p>Цвет: {carModificationsData[Number(modificationId) ?? 0].color}</p>
       </div>
     </div>
   );

@@ -1,6 +1,13 @@
 @import "@/assets/css/config";
 
 .main__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__container__image {
   width: 100%;
   height: 505px;
   display: flex;
@@ -18,4 +25,11 @@
   width: 960px;
   height: 540px;
   object-fit: contain;
+}
+
+.main__modal {
+  width: 260px;
+  background: rgba(43, 43, 43, 0.9);
+  display: flex;
+  flex-direction: column;
 }
