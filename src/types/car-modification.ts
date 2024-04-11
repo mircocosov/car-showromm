@@ -6,6 +6,11 @@ export interface CarModification {
   endDate: Date;
   model: CarModel;
   image: string;
+  engineVolume: number;
+  enginePower: number;
+  year: number;
+  acceleration: number;
+  color: string;
 }
 
 export interface GetCarModificationParams {

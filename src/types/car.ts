@@ -11,11 +11,3 @@ export interface CarModel {
   brand: CarBrand;
   class: CarClass;
 }
-
-export interface CarModification {
-  id: string;
-  startDate: Date;
-  endDate: Date;
-  model: CarModel;
-  image: string;
-}
