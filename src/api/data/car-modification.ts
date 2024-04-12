@@ -22,9 +22,9 @@ export const carModificationsData: CarModification[] = [
     model: carModelsData[22],
     image:
       "https://files.porsche.com/filestore/image/multimedia/none/972-g3-v6-modelexplorer/normal/9537b7ad-c9c5-11ee-8116-005056bbdc38;sP;twebp/porsche-normal.webp",
-    engineVolume: 1.8,
-    enginePower: 300,
-    year: 2010,
+    engineVolume: 2.0,
+    enginePower: 310,
+    year: 2012,
     acceleration: 2.1,
     color: "green",
   },
