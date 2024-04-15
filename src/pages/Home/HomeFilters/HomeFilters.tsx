@@ -3,7 +3,7 @@ import { useCarClasses } from "@/api/car-classes";
 import { useCarModels } from "@/api/car-models";
 import { useCarModifications } from "@/api/car-modification";
 import { useState } from "react";
-import "./HomeFilters.scss";
+import style from "./HomeFilters.module.scss";
 import Select from "@/components/ui/Select";
 
 interface Props {
@@ -32,9 +32,9 @@ export default function HomeFilters({
   });
 
   return (
-    <div className="Home__ChooseCar__container">
+    <div className={style.Home__ChooseCar__container}>
       <Select
-        className="Home__ChooseCar__select"
+        className={style.Home__ChooseCar__select}
         onChange={(val) => setClassId((val ?? null) as string | null)}
         value={classId ?? undefined}
         inputtable
@@ -46,7 +46,7 @@ export default function HomeFilters({
       />
 
       <Select
-        className="Home__ChooseCar__select"
+        className={style.Home__ChooseCar__select}
         onChange={(val) => setBrandId((val ?? null) as string | null)}
         value={brandId ?? undefined}
         inputtable
@@ -55,7 +55,7 @@ export default function HomeFilters({
       />
 
       <Select
-        className="Home__ChooseCar__select"
+        className={style.Home__ChooseCar__select}
         onChange={(val) => setModelId((val ?? null) as string | null)}
         value={modelId ?? undefined}
         inputtable
@@ -64,7 +64,7 @@ export default function HomeFilters({
       />
 
       <Select
-        className="Home__ChooseCar__select"
+        className={style.Home__ChooseCar__select}
         onChange={(val) => setModificationId((val ?? null) as string | null)}
         value={modificationId ?? undefined}
         inputtable

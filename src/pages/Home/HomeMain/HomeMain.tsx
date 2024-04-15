@@ -1,4 +1,4 @@
-import "./HomeMain.scss";
+import style from "./HomeMain.module.scss";
 import { carModificationsData } from "@/api/data/car-modification";
 
 interface Props {
@@ -7,20 +7,20 @@ interface Props {
 
 export default function HomeMain({ modificationId }: Props) {
   return (
-    <div className={"main__container"}>
-      <div className="main__container__prefix">
-        <span className={"main__prefix"}>FIND YOUR DREAM CAR</span>
+    <div className={style.main__container}>
+      <div className={style.main__container__prefix}>
+        <span className={style.main__prefix}>ПРИОБРЕТИ МАШИНУ МЕЧТЫ</span>
       </div>
 
-      <div className="main__info-block-with-image">
-        <div className="image">
+      <div className={style.main__info_block_with_image}>
+        <div className={style.image}>
           <img
             src={carModificationsData[Number(modificationId) ?? 0].image}
             alt="Car"
             className="main__image"
           />
         </div>
-        <div className="main__info-block">
+        <div className={style.main__info_block}>
           <p>
             Объем двигателя:{" "}
             {carModificationsData[Number(modificationId) ?? 0].engineVolume}

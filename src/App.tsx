@@ -1,5 +1,12 @@
-import Home from "@/pages/Home/Home";
+import { Outlet } from "react-router-dom";
+import HomeHeader from "./pages/Home/HomeHeader";
+import styles from "./App.module.scss";
 
 export default function App() {
-  return <Home />;
+  return (
+    <div className={styles.container}>
+      <HomeHeader />
+      <Outlet />
+    </div>
+  );
 }
