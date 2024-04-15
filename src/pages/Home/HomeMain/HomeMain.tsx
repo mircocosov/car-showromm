@@ -9,7 +9,7 @@ export default function HomeMain({ modificationId }: Props) {
   return (
     <div className={style.main__container}>
       <div className={style.main__container__prefix}>
-        <span className={style.main__prefix}>ПРИОБРЕТИ МАШИНУ МЕЧТЫ</span>
+        <span className={style.main__prefix}>ПРИОБРЕТИТЕ МАШИНУ МЕЧТЫ</span>
       </div>
 
       <div className={style.main__info_block_with_image}>
@@ -17,7 +17,7 @@ export default function HomeMain({ modificationId }: Props) {
           <img
             src={carModificationsData[Number(modificationId) ?? 0].image}
             alt="Car"
-            className="main__image"
+            className={style.main__image}
           />
         </div>
         <div className={style.main__info_block}>
