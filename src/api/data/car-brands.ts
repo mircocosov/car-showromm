@@ -81,6 +81,7 @@ export const carBrandsData: CarBrand[] = [
     id:"18",
     name: "Opel", //Astra - sedan, grandland-suv, Zafira - minivan, vectra-sedan, corsa -hatchback   
   },
+  
 ];
 
 

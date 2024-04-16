@@ -4,67 +4,67 @@ import { carModelsData } from "./car-models";
 export const carModificationsData: CarModification[] = [
   {
     id: "0",
-    startDate: new Date("2008-03-01T00:00Z"),
-    endDate: new Date("2013-11-01T00:00Z"),
+    startDate: new Date("1964-01-01T00:00Z"),
+    endDate: new Date(),
     model: carModelsData[21], //911
     image:
-      "https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelexplorer/normal/6bcbc899-51bd-11eb-80d1-005056bbdc38;sP;twebp/porsche-normal.webp",
-    engineVolume: 1.8,
-    enginePower: 300,
-    year: 2010,
-    acceleration: 2.1,
+    "../public/images/911.png",
+    engineVolume: 3.0,
+    enginePower: 420,
+    year: 2015,
+    acceleration: 4.2,
     color: "Синий",
   },
   {
     id: "1",
     startDate: new Date("2009-03-01T00:00Z"),
-    endDate: new Date("2014-11-01T00:00Z"),
+    endDate: new Date(),
     model: carModelsData[22], //Panamera
     image:
-      "https://files.porsche.com/filestore/image/multimedia/none/972-g3-v6-modelexplorer/normal/9537b7ad-c9c5-11ee-8116-005056bbdc38;sP;twebp/porsche-normal.webp",
-    engineVolume: 2.0,
-    enginePower: 310,
-    year: 2012,
-    acceleration: 2.1,
+    "../public/images/Panamera.png",
+    engineVolume: 4.0,
+    enginePower: 480,
+    year: 2020,
+    acceleration: 3.9,
     color: "Серебристый",
   },
   {
     id: "2",
-    startDate: new Date("2012-03-01T00:00Z"),
-    endDate: new Date("2018-11-01T00:00Z"),
+    startDate: new Date("2002-01-01T00:00Z"),
+    endDate: new Date(),
     model: carModelsData[23], //Cayenne
     image:
-      "https://files.porsche.com/filestore/image/multimedia/none/e3-2nd-cayenne-modelexplorer-sideshot/normal/66377a26-8859-11ee-810c-005056bbdc38;sP;twebp/porsche-normal.webp",
-    engineVolume: 1.8,
-    enginePower: 300,
-    year: 2010,
-    acceleration: 2.1,
+    "../public/images/Cayenne.png",
+    engineVolume: 4.8,
+    enginePower: 570,
+    year: 2016,
+    acceleration: 4.1,
     color: "Циан",
   },
   {
     id: "3",
-    startDate: new Date("2012-03-01T00:00Z"),
-    endDate: new Date("2014-11-01T00:00Z"),
+    startDate: new Date("2013-11-20T00:00Z"),
+    endDate: new Date(),
     model: carModelsData[24], //Macan
     image:
-      "https://files.porsche.com/filestore/image/multimedia/none/pa3-r4-modelexplorer/normal/237e6fa9-7dec-11ec-80e9-005056bbdc38;sP;twebp/porsche-normal.webp",
-    engineVolume: 1.8,
-    enginePower: 300,
-    year: 2010,
-    acceleration: 2.1,
+    "../public/images/Macan.png",
+    engineVolume: 2.9,
+    enginePower: 440,
+    year: 2021,
+    acceleration: 4.5,
     color: "Темно-синий",
   },
   {
     id: "4",
-    startDate: new Date("2014-03-01T00:00Z"),
-    endDate: new Date("2020-11-01T00:00Z"),
+    startDate: new Date("2024-03-11T00:00Z"),
+    endDate: new Date(),
     model: carModelsData[25], //Taycan
     image:
-      "https://images-porsche.imgix.net/-/media/A476D89B333349D39A089152383C7E85_22CDF95F742F459BBA7DA94B27AD66BC_TA24Q3BIX0010-taycan-side?w=1400&q=85&crop=faces%2Centropy%2Cedges&auto=format",
-    engineVolume: 1.8,
-    enginePower: 300,
-    year: 2010,
-    acceleration: 2.1,
+    "../public/images/Taycan.png",
+    engineVolume: 0,
+    enginePower: 625,
+    year: 2024,
+    acceleration: 2.9,
     color: "Серебристый",
   },
   //Lamborgini
@@ -147,7 +147,7 @@ export const carModificationsData: CarModification[] = [
     acceleration: 3.6,
     color: "Желтый",
   },
- //Ferrari    -  6- F40 7-Purosangue 8-SF90 Stradale 9-488 10-812 Superfast
+ //Ferrari  
  
  {
   id:"11",
@@ -199,6 +199,178 @@ export const carModificationsData: CarModification[] = [
   enginePower: 720,
   year: 2018,
   acceleration: 2.8,
-  color: "",
+  color: "Красный",
+},
+{
+  id:"15",
+  startDate: new Date("2017-03-01T00:00Z"),
+  endDate: new Date("2022-12-01T00:00Z"),
+  model: carModelsData[10], //812 Superfast
+  image:
+ "../public/images/812Superfast.png",
+  engineVolume: 6.5,
+  enginePower: 800,
+  year: 2020,
+  acceleration: 2.9,
+  color: "Черный",
+},
+//Buggati
+{
+  id:"16",
+  startDate: new Date("2016-01-01T00:00Z"),
+  endDate: new Date("2023-10-01T00:00Z"),
+  model: carModelsData[11], //Chiron
+  image:
+ "../public/images/Chiron.png",
+  engineVolume: 8.0,
+  enginePower: 1500,
+  year: 2019,
+  acceleration: 2.3,
+  color: "Черный + синий",
+},
+{
+  id:"17",
+  startDate: new Date("2005-01-01T00:00Z"),
+  endDate: new Date("2015-01-01T00:00Z"),
+  model: carModelsData[12], //Veyron
+  image:
+ "../public/images/Veyron.png",
+  engineVolume: 8.0,
+  enginePower: 1200,
+  year: 2012,
+  acceleration: 2.6,
+  color: "Серебристый",
+},
+{
+  id:"18",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date("2021-01-01T00:00Z"),
+  model: carModelsData[13], //Divo
+  image:
+ "../public/images/Divo.png",
+  engineVolume: 8.0,
+  enginePower: 1500,
+  year: 2020,
+  acceleration: 2.4,
+  color: "Серебристый + синий",
+},
+{
+  id:"19",
+  startDate: new Date("2024-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[14], //W16 Mistral
+  image:
+ "../public/images/Mistral.png",
+  engineVolume: 8.0,
+  enginePower: 1600,
+  year: 2024,
+  acceleration: 2.4,
+  color: "Черный",
+},
+{
+  id:"20",
+  startDate: new Date("1991-09-15T00:00Z"),
+  endDate: new Date("1995-01-01T00:00Z"),
+  model: carModelsData[15], //EB 110
+  image:
+ "../public/images/EB110.png",
+  engineVolume: 3.5,
+  enginePower: 561,
+  year: 1993,
+  acceleration: 4.2,
+  color: "Синий",
+},
+ //Maserati
+ {
+  id:"21",
+  startDate: new Date("2013-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[16], //Ghibli
+  image:
+ "../public/images/Ghibli.png",
+  engineVolume: 3.8,
+  enginePower: 580,
+  year: 2020,
+  acceleration: 4.5,
+  color: "Красный",
+},
+{
+  id:"22",
+  startDate: new Date("2021-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[17], //MC20
+  image:
+ "../public/images/MC20.png",
+  engineVolume: 3.0,
+  enginePower: 630,
+  year: 2022,
+  acceleration: 2.9,
+  color: "Серебристый",
+},
+{
+  id:"23",
+  startDate: new Date("2004-01-01T00:00Z"),
+  endDate: new Date("2005-01-01T00:00Z"),
+  model: carModelsData[18], //MC12
+  image:
+ "../public/images/MC12.png",
+  engineVolume: 6.0,
+  enginePower: 632,
+  year: 2004,
+  acceleration: 3.8,
+  color: "Белый + синий",
+},
+{
+  id:"24",
+  startDate: new Date("1998-12-01T00:00Z"),
+  endDate: new Date("2002-03-01T00:00Z"),
+  model: carModelsData[19], //3200GT
+  image:
+ "../public/images/3200GT.png",
+  engineVolume: 3.2,
+  enginePower: 370,
+  year: 2001,
+  acceleration: 5.1,
+  color: "Серый",
+},
+{
+  id:"25",
+  startDate: new Date("2016-01-01T00:00Z"),
+  endDate: new Date("2024-03-01T00:00Z"),
+  model: carModelsData[20], //Levante
+  image:
+ "../public/images/Levante.png",
+  engineVolume: 3.8,
+  enginePower: 550,
+  year: 2017,
+  acceleration: 4.2,
+  color: "Серебристый",
+},
+ //Dodge
+ {
+  id:"26",
+  startDate: new Date("2008-01-01T00:00Z"),
+  endDate: new Date("2023-01-01T00:00Z"),
+  model: carModelsData[26], //Challenger
+  image:
+ "../public/images/Challenger.png",
+  engineVolume: 5.7,
+  enginePower: 375,
+  year: 2015,
+  acceleration: 5.5,
+  color: "Голубой",
+},
+{
+  id:"27",
+  startDate: new Date("1992-01-01T00:00Z"),
+  endDate: new Date("2017-01-01T00:00Z"),
+  model: carModelsData[27], //Viper
+  image:
+ "../public/images/Viper.png",
+  engineVolume: 8.4,
+  enginePower: 608,
+  year: 2010,
+  acceleration: 3.0,
+  color: "Красный",
 },
 ];

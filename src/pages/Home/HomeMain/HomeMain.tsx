@@ -22,7 +22,7 @@ export default function HomeMain({ modificationId }: Props) {
         </div>
         <div className={style.main__info_block}>
           <p>
-            Объем двигателя:{" "}
+            Объем двигателя в литрах:{" "}
             {carModificationsData[Number(modificationId) ?? 0].engineVolume}
           </p>
           <p>
