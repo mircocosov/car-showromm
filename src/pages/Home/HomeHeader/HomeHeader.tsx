@@ -5,8 +5,10 @@ export default function HomeHeader() {
   return (
     <div className={style.header__container}>
       <a className={style.container__button}>HOME</a>
-      <Link to={`contacts/AboutUs`}>ABOUT US</Link>
-      <Link to={"contacts/Home"}>
+      <Link to={`contacts/AboutUs`} className={style.container__button}>
+        ABOUT US
+      </Link>
+      <Link to={""}>
         <svg
           fill="#FFFFFF"
           height="75"
