@@ -586,4 +586,5 @@ export const carModelsData: CarModel[] = [
     brand: carBrandsData[18],
     class: carClassesData[3],
   },
+ 
 ];
