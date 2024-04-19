@@ -13,7 +13,7 @@ export default function HomeMain({ modificationId }: Props) {
       </div>
 
       <div className={style.main__info_block_with_image}>
-        <div className={style.image}>
+        <div>
           <img
             src={carModificationsData[Number(modificationId) ?? 0].image}
             alt="Car"

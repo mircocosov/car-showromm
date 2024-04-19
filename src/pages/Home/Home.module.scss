@@ -2,7 +2,8 @@
 
 .Home__container {
   display: flex;
+  flex: 0;
   flex-direction: column;
-  gap: 42px 0;
   background: $black;
+  gap: 3%;
 }
