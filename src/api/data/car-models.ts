@@ -181,7 +181,7 @@ export const carModelsData: CarModel[] = [
     id: "28",
     name: "RAM",
     brand: carBrandsData[5],
-    class: carClassesData[2], //SUV
+    class: carClassesData[5], //SUV
   },
   {
     id: "29",

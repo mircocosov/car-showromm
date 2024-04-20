@@ -373,4 +373,162 @@ export const carModificationsData: CarModification[] = [
   acceleration: 3.0,
   color: "Красный",
 },
+{
+  id:"28",
+  startDate: new Date("1994-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[28], //RAM
+  image:
+ "../public/images/RAM.png",
+  engineVolume: 4.7,
+  enginePower: 314,
+  year: 2014,
+  acceleration: 8.3,
+  color: "Черный",
+},
+{
+  id:"29",
+  startDate: new Date("1984-01-01T00:00Z"),
+  endDate: new Date("2020-01-01T00:00Z"),
+  model: carModelsData[29], //Caravan
+  image:
+ "../public/images/Caravan.png",
+  engineVolume: 3.3,
+  enginePower: 173,
+  year: 2010,
+  acceleration: 11,
+  color: "Красный",
+},
+{
+  id:"30",
+  startDate: new Date("2012-01-01T00:00Z"),
+  endDate: new Date("2016-09-01T00:00Z"),
+  model: carModelsData[30], //Dart
+  image:
+ "../public/images/Dart.png",
+  engineVolume: 1.4,
+  enginePower: 160,
+  year: 2013,
+  acceleration: 8.5,
+  color: "Оранжевый",
+},
+//Mercedes
+{
+  id:"31",
+  startDate: new Date("2014-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[31], //Maybach
+  image:
+ "../public/images/Maybach.png",
+  engineVolume: 3.0,
+  enginePower: 510,
+  year: 2021,
+  acceleration: 5.1,
+  color: "Черный",
+},
+{
+  id:"32",
+  startDate: new Date("2005-01-01T00:00Z"),
+  endDate: new Date("2009-01-01T00:00Z"),
+  model: carModelsData[32], //S500
+  image:
+ "../public/images/S500.png",
+  engineVolume: 5.5,
+  enginePower: 560,
+  year: 2006,
+  acceleration: 5.5,
+  color: "Серебристый",
+},
+{
+  id:"33",
+  startDate: new Date("2013-01-01T00:00Z"),
+  endDate: new Date("2016-01-01T00:00Z"),
+  model: carModelsData[33], //E63 AMG
+  image:
+ "../public/images/E63AMG.png",
+  engineVolume: 5.5,
+  enginePower: 557,
+  year: 2015,
+  acceleration: 3.7,
+  color: "Серебристый",
+},
+{
+  id:"34",
+  startDate: new Date("2014-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[34], //Vito
+  image:
+ "../public/images/Vito.png",
+  engineVolume: 1.6,
+  enginePower: 88,
+  year: 2020,
+  acceleration: 12.5,
+  color: "Черный",
+},
+{
+  id:"35",
+  startDate: new Date("2015-01-01T00:00Z"),
+  endDate: new Date("2018-01-01T00:00Z"),
+  model: carModelsData[35], //A-class
+  image:
+ "../public/images/Aclass.png",
+  engineVolume: 2.0,
+  enginePower: 381,
+  year: 2017,
+  acceleration: 4.6,
+  color: "Серебристый",
+},
+//BMW
+{
+  id:"36",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date("2022-01-01T00:00Z"),
+  model: carModelsData[36], //M8
+  image:
+ "../public/images/M8.png",
+  engineVolume: 4.4,
+  enginePower: 625,
+  year: 2022,
+  acceleration: 3.2,
+  color: "Зеленый",
+},
+{
+  id:"37",
+  startDate: new Date("2018-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[37], //X7
+  image:
+ "../public/images/X7.png",
+  engineVolume: 4.4,
+  enginePower: 530,
+  year: 2022,
+  acceleration: 5.8,
+  color: "Темно-синий",
+},
+{
+  id:"38",
+  startDate: new Date("2004-01-01T00:00Z"),
+  endDate: new Date("2010-01-01T00:00Z"),
+  model: carModelsData[38], //E90
+  image:
+ "../public/images/E90.png",
+  engineVolume: 3.0,
+  enginePower: 272,
+  year: 2006,
+  acceleration: 6.4,
+  color: "Серебристый",
+},
+{
+  id:"39",
+  startDate: new Date("2020-05-01T00:00Z"),
+  endDate: new Date("2023-03-01T00:00Z"),
+  model: carModelsData[39], //5-Series
+  image:
+ "../public/images/5-series.png",
+  engineVolume: 3.0,
+  enginePower: 249,
+  year: 2021,
+  acceleration: 5.5,
+  color: "Белый",
+},
 ];
