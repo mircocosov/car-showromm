@@ -492,4 +492,43 @@ export const carModificationsData: CarModification[] = [
   acceleration: 3.2,
   color: "Зеленый",
 },
+{
+  id:"37",
+  startDate: new Date("2018-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[37], //X7
+  image:
+ "../public/images/X7.png",
+  engineVolume: 4.4,
+  enginePower: 530,
+  year: 2022,
+  acceleration: 5.8,
+  color: "Темно-синий",
+},
+{
+  id:"38",
+  startDate: new Date("2004-01-01T00:00Z"),
+  endDate: new Date("2010-01-01T00:00Z"),
+  model: carModelsData[38], //E90
+  image:
+ "../public/images/E90.png",
+  engineVolume: 3.0,
+  enginePower: 272,
+  year: 2006,
+  acceleration: 6.4,
+  color: "Серебристый",
+},
+{
+  id:"39",
+  startDate: new Date("2020-05-01T00:00Z"),
+  endDate: new Date("2023-03-01T00:00Z"),
+  model: carModelsData[39], //5-Series
+  image:
+ "../public/images/5-series.png",
+  engineVolume: 3.0,
+  enginePower: 249,
+  year: 2021,
+  acceleration: 5.5,
+  color: "Белый",
+},
 ];
