@@ -1,1 +1,18 @@
 @import "@/assets/css/config";
+
+.AboutUs__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutUs__Title {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.AboutUs__AdditionalInfo {
+  display: flex;
+  text-wrap: balance;
+  font-size: 18px;
+}
