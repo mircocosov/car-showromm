@@ -531,4 +531,97 @@ export const carModificationsData: CarModification[] = [
   acceleration: 5.5,
   color: "Белый",
 },
+{
+  id:"40",
+  startDate: new Date("2017-01-01T00:00Z"),
+  endDate: new Date("2021-01-01T00:00Z"),
+  model: carModelsData[40], //220D XDrive
+  image:
+ "../public/images/220d.png",
+  engineVolume: 3.0,
+  enginePower: 340,
+  year: 2020,
+  acceleration: 4.8,
+  color: "Синий",
+},
+//Bentley
+{
+  id:"41",
+  startDate: new Date("2017-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[41], //Continental
+  image:
+ "../public/images/Continental.png",
+  engineVolume: 4.0,
+  enginePower: 550,
+  year: 2018,
+  acceleration: 4.0,
+  color: "Серебристый",
+},
+{
+  id:"42",
+  startDate: new Date("2020-06-01T00:00Z"),
+  endDate: new Date("2022-12-01T00:00Z"),
+  model: carModelsData[42], //Bentayga
+  image:
+ "../public/images/Bentayga.png",
+  engineVolume: 6.0,
+  enginePower: 635,
+  year: 2021,
+  acceleration: 3.9,
+  color: "Серый",
+},
+{
+  id:"43",
+  startDate: new Date("2013-03-01T00:00Z"),
+  endDate: new Date("2019-12-01T00:00Z"),
+  model: carModelsData[43], //Flying Spure
+  image:
+ "../public/images/FlyingSpure.png",
+  engineVolume: 4.0,
+  enginePower: 507,
+  year: 2015,
+  acceleration: 5.2,
+  color: "Бежевый",
+},
+{
+  id:"44",
+  startDate: new Date("2023-02-01T00:00Z"),
+  endDate: new Date("2024-07-01T00:00Z"),
+  model: carModelsData[44], //Mulliner
+  image:
+ "../public/images/Mulliner.png",
+  engineVolume: 6.0,
+  enginePower: 608,
+  year: 2023,
+  acceleration: 4.1,
+  color: "Серый",
+},
+{
+  id:"45",
+  startDate: new Date("2016-01-01T00:00Z"),
+  endDate: new Date("2020-01-01T00:00Z"),
+  model: carModelsData[45], //Mulsanne
+  image:
+ "../public/images/Mulsanne(2).png",
+  engineVolume: 6.8,
+  enginePower: 512,
+  year: 2018,
+  acceleration: 5.3,
+  color: "Коричневый",
+},
+//Audi
+{
+  id:"46",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[46], //R8
+  image:
+ "../public/images/R8.png",
+  engineVolume: 5.2,
+  enginePower: 540,
+  year: 2022,
+  acceleration: 3.7,
+  color : "Серебристый",
+},
 ];
