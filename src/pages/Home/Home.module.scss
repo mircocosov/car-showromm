@@ -2,8 +2,7 @@
 
 .Home__container {
   display: flex;
-  flex: 0;
+  flex: 1;
   flex-direction: column;
-  background: $black;
-  gap: 3%;
+  justify-content: space-between;
 }
