@@ -624,4 +624,189 @@ export const carModificationsData: CarModification[] = [
   acceleration: 3.7,
   color : "Серебристый",
 },
+{
+  id:"47",
+  startDate: new Date("2018-03-01T00:00Z"),
+  endDate: new Date("2022-12-01T00:00Z"),
+  model: carModelsData[47], //A6
+  image:
+ "../public/images/A6.png",
+  engineVolume: 2.0,
+  enginePower: 190,
+  year: 2021,
+  acceleration: 7.9,
+  color : "Белый",
+},
+{
+  id:"48",
+  startDate: new Date("2018-01-01T00:00Z"),
+  endDate: new Date("2023-01-01T00:00Z"),
+  model: carModelsData[48], //Q8
+  image:
+ "../public/images/Q8.png",
+  engineVolume: 3.0,
+  enginePower: 231,
+  year: 2022,
+  acceleration: 7.1,
+  color : "Черный",
+},
+{
+  id:"49",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[49], //RS6
+  image:
+ "../public/images/RS6.png",
+  engineVolume: 4.0,
+  enginePower: 630,
+  year: 2023,
+  acceleration: 3.3,
+  color : "Красный",
+},
+{
+  id:"50",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date("2021-01-01T00:00Z"),
+  model: carModelsData[50], //S8
+  image:
+ "../public/images/S8.png",
+  engineVolume: 4.0,
+  enginePower: 571,
+  year: 2020,
+  acceleration: 3.8,
+  color : "Серый",
+},
+//Chrysler
+{
+  id:"51",
+  startDate: new Date("2011-01-01T00:00Z"),
+  endDate: new Date("2015-01-01T00:00Z"),
+  model: carModelsData[51], //300
+  image:
+ "../public/images/300.png",
+  engineVolume: 3.6,
+  enginePower: 292,
+  year: 2013,
+  acceleration: 7.6,
+  color : "Белый",
+},
+{
+  id:"52",
+  startDate: new Date("2003-01-01T00:00Z"),
+  endDate: new Date("2008-01-01T00:00Z"),
+  model: carModelsData[52], //Pacifica
+  image:
+ "../public/images/Pacifica.png",
+  engineVolume: 3.5,
+  enginePower: 253,
+  year: 2004,
+  acceleration: 10.0,
+  color : "Серебристый",
+},
+{
+  id:"53",
+  startDate: new Date("2020-02-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[53], //Pacifica PlugIn
+  image:
+ "../public/images/PlugInHybrid.png",
+  engineVolume: 3.6,
+  enginePower: 260,
+  year: 2021,
+  acceleration: 8.5,
+  color : "Красный",
+},
+//Ford
+{
+  id:"54",
+  startDate: new Date("2014-03-01T00:00Z"),
+  endDate: new Date("2019-01-01T00:00Z"),
+  model: carModelsData[54], //Focus
+  image:
+ "../public/images/Focus.png",
+  engineVolume: 1.6,
+  enginePower: 125,
+  year: 2018,
+  acceleration: 11.0,
+  color : "Серебристый",
+},
+{
+  id:"55",
+  startDate: new Date("2014-08-01T00:00Z"),
+  endDate: new Date("2017-07-01T00:00Z"),
+  model: carModelsData[55], //Mustang
+  image:
+ "../public/images/Mustang.png",
+  engineVolume: 3.7,
+  enginePower: 300,
+  year: 2015,
+  acceleration: 5.7,
+  color : "Красный",
+},
+{
+  id:"56",
+  startDate: new Date("2017-01-01T00:00Z"),
+  endDate: new Date("2020-08-01T00:00Z"),
+  model: carModelsData[56], //F150
+  image:
+ "../public/images/F150.png",
+  engineVolume: 2.7,
+  enginePower: 325,
+  year: 2019,
+  acceleration: 7.0,
+  color : "Синий",
+},
+{
+  id:"57",
+  startDate: new Date("2016-01-01T00:00Z"),
+  endDate: new Date("2019-01-01T00:00Z"),
+  model: carModelsData[57], //Kuga
+  image:
+ "../public/images/Kuga.png",
+  engineVolume: 2.5,
+  enginePower: 150,
+  year: 2017,
+  acceleration: 10.7,
+  color : "Серый",
+},
+{
+  id:"58",
+  startDate: new Date("2014-03-01T00:00Z"),
+  endDate: new Date("2022-10-01T00:00Z"),
+  model: carModelsData[58], //Transit
+  image:
+ "../public/images/Transit.png",
+  engineVolume: 2.2,
+  enginePower: 125,
+  year: 2019,
+  acceleration: 12.6,
+  color : "Белый",
+},
+//JEEP
+{
+  id:"59",
+  startDate: new Date("2013-09-01T00:00Z"),
+  endDate: new Date("2016-04-01T00:00Z"),
+  model: carModelsData[59], //Grand Cherokee
+  image:
+ "../public/images/GrandCherokee.png",
+  engineVolume: 3.0,
+  enginePower: 241,
+  year: 2015,
+  acceleration: 8.2,
+  color : "Черный",
+},
+{
+  id:"60",
+  startDate: new Date("2019-10-01T00:00Z"),
+  endDate: new Date("2021-05-01T00:00Z"),
+  model: carModelsData[60], //Compass
+  image:
+ "../public/images/Compass.png",
+  engineVolume: 2.4,
+  enginePower: 150,
+  year: 2020,
+  acceleration: 8.8,
+  color : "Синий",
+},
 ];
