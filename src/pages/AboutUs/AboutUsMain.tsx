@@ -11,7 +11,7 @@ export default function AboutUs() {
         максимально удобным и приятным для наших клиентов.
       </p>
       <h2>Что мы предлагаем:</h2>
-      <ul>
+      <ul className={style.AboutUs__List}>
         <li>
           <h3>Продажа автомобилей: </h3>
           <p>

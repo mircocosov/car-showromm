@@ -1,23 +1,17 @@
 @import "@/assets/css/config";
 
 .header__container {
-  width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
 .container__button {
   font-family: "releway-c";
-  width: 8%;
-  height: 100%;
   background: $black;
   color: $white;
   border: none;
   cursor: pointer;
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
 }

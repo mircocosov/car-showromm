@@ -16,3 +16,19 @@
   text-wrap: balance;
   font-size: 18px;
 }
+
+.AboutUs__List {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-around;
+}
+
+h2 {
+  @include heading-2;
+  font-weight: 800;
+}
+
+P {
+  text-wrap: balance;
+}

@@ -1,8 +1,8 @@
 import { CarBrand } from "@/types/car-brand";
 
 export const carBrandsData: CarBrand[] = [
-//Sport 
- {  
+  //Sport
+  {
     id: "0",
     name: "Lamborgini",
   },
@@ -20,7 +20,7 @@ export const carBrandsData: CarBrand[] = [
   },
   {
     id: "4",
-    name: "Porsche", //Cayenne -SUV, Macan - suv, 
+    name: "Porsche", //Cayenne -SUV, Macan - suv,
   },
   {
     id: "5",
@@ -34,7 +34,7 @@ export const carBrandsData: CarBrand[] = [
   {
     id: "7",
     name: "BMW", // M8 - sport, x7 - business, e90 - sedan, 5-series - hatchback, 220D - minivan
-  }, 
+  },
   {
     id: "8",
     name: "Bentley",
@@ -45,12 +45,12 @@ export const carBrandsData: CarBrand[] = [
   }, //Hatchback
   {
     id: "10",
-    name: "Chrysler", 
+    name: "Chrysler",
   },
   //SUV
   {
     id: "11",
-    name: "Ford",// focus - hatchback, mustang-sport, f150 - pickup, kuga-suv, transit-minivan
+    name: "Ford", // focus - hatchback, mustang-sport, f150 - pickup, kuga-suv, transit-minivan
   },
   {
     id: "12",
@@ -59,14 +59,14 @@ export const carBrandsData: CarBrand[] = [
   {
     id: "13",
     name: "Chevrolet", //Sport - Camaro, Malibu - sedan, lacetti - hatchback, tahoe-pickup, Orlando - minivan
-  },  
+  },
   {
     id: "14",
     name: "Hyundai", //business - sonata, suv-tucson, palisade-suv, santa-fe - suv, solaris - sedan
   },
   {
     id: "15",
-    name: "KIA", //sedan - K8, SUV - sorento, stinger-sport, carnival - minivan, mohave - pickup 
+    name: "KIA", //sedan - K8, SUV - sorento, stinger-sport, carnival - minivan, mohave - pickup
   },
   //Hatchback
   {
@@ -74,14 +74,13 @@ export const carBrandsData: CarBrand[] = [
     name: "Nissan", //Sport -GT-R, SUV- Qashqai, hatchback - note, serena - minnivan, pickup - navara
   },
   {
-    id:"17",
-    name: "Skoda", //octavia - sedan, kodiaq - suv, felicia - pickup, roomster - minivan, superb- sedan   
+    id: "17",
+    name: "Skoda", //octavia - sedan, kodiaq - suv, felicia - pickup, roomster - minivan, superb- sedan
   },
   {
-    id:"18",
-    name: "Opel", //Astra - sedan, grandland-suv, Zafira - minivan, vectra-sedan, corsa -hatchback   
+    id: "18",
+    name: "Opel", //Astra - sedan, grandland-suv, Zafira - minivan, vectra-sedan, corsa -hatchback
   },
 ];
-
 
 //8 sport 7 business 8 suv 2 hatchback
