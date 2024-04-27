@@ -809,4 +809,439 @@ export const carModificationsData: CarModification[] = [
   acceleration: 8.8,
   color : "Синий",
 },
+{
+  id:"61",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date("2023-01-01T00:00Z"),
+  model: carModelsData[61], //Gladiator
+  image:
+ "../public/images/Gladiator.png",
+  engineVolume: 2022,
+  enginePower: 3.0,
+  year: 2022,
+  acceleration: 8,
+  color : "Серебристый",
+},
+{
+  id:"62",
+  startDate: new Date("2018-08-01T00:00Z"),
+  endDate: new Date("2022-10-01T00:00Z"),
+  model: carModelsData[62], //Wrangler
+  image:
+ "../public/images/Wrangler.png",
+  engineVolume: 2.0,
+  enginePower: 272,
+  year: 2021,
+  acceleration: 6.8,
+  color : "Красный",
+},
+{
+  id:"63",
+  startDate: new Date("2019-11-01T00:00Z"),
+  endDate: new Date("2021-10-01T00:00Z"),
+  model: carModelsData[63], //Renegade
+  image:
+ "../public/images/Renegade.png",
+  engineVolume: 1.4,
+  enginePower: 140,
+  year: 2020,
+  acceleration: 11.0,
+  color : "Оранжевый",
+},
+//Chevrolet
+{
+  id:"64",
+  startDate: new Date("2018-01-01T00:00Z"),
+  endDate: new Date("2023-01-01T00:00Z"),
+  model: carModelsData[64], //Camaro
+  image:
+ "../public/images/Camaro.png",
+  engineVolume: 6.2,
+  enginePower: 455,
+  year: 2019,
+  acceleration: 4.2,
+  color : "Оранжевый",
+},
+{
+  id:"65",
+  startDate: new Date("2012-09-01T00:00Z"),
+  endDate: new Date("2015-01-01T00:00Z"),
+  model: carModelsData[65], //Malibu
+  image:
+ "../public/images/Malibu.png",
+  engineVolume: 2.4,
+  enginePower: 167,
+  year: 2014,
+  acceleration: 10.1,
+  color : "Черный",
+},
+{
+  id:"66",
+  startDate: new Date("2004-01-01T00:00Z"),
+  endDate: new Date("2013-01-01T00:00Z"),
+  model: carModelsData[66], //Lacetti
+  image:
+ "../public/images/Lacetti.png",
+  engineVolume: 1.8,
+  enginePower: 122,
+  year: 2012,
+  acceleration: 10.7,
+  color : "Белый",
+},
+{
+  id:"67",
+  startDate: new Date("2020-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[67], //Tahoe
+  image:
+ "../public/images/Tahoe.png",
+  engineVolume: 3.0,
+  enginePower: 282,
+  year: 2021,
+  acceleration: 8.7,
+  color : "Красный",
+},
+{
+  id:"68",
+  startDate: new Date("2010-01-01T00:00Z"),
+  endDate: new Date("2018-01-01T00:00Z"),
+  model: carModelsData[68], //Orlando
+  image:
+ "../public/images/Orlando.png",
+  engineVolume: 1.8,
+  enginePower: 141,
+  year: 2012,
+  acceleration: 11.6,
+  color : "Серый",
+},
+//Hyundai
+{
+  id:"69",
+  startDate: new Date("2019-03-01T00:00Z"),
+  endDate: new Date("2022-12-01T00:00Z"),
+  model: carModelsData[69], //Sonata
+  image:
+ "../public/images/Sonata.png",
+  engineVolume: 2.0,
+  enginePower: 150,
+  year: 2022,
+  acceleration: 10.6,
+  color : "Серебристый",
+},
+{
+  id:"70",
+  startDate: new Date("2021-05-01T00:00Z"),
+  endDate: new Date("2022-12-01T00:00Z"),
+  model: carModelsData[70], //Tucson
+  image:
+ "../public/images/Tucson.png",
+  engineVolume: 2.0,
+  enginePower: 186,
+  year: 2022,
+  acceleration: 9.4,
+  color : "Белый",
+},
+{
+  id:"71",
+  startDate: new Date("2018-01-01T00:00Z"),
+  endDate: new Date("2022-01-01T00:00Z"),
+  model: carModelsData[71], //Palisade
+  image:
+ "../public/images/Palisade.png",
+  engineVolume: 3.8,
+  enginePower: 291,
+  year: 2019,
+  acceleration: 7.6,
+  color : "Графит",
+},
+{
+  id:"72",
+  startDate: new Date("2015-09-01T00:00Z"),
+  endDate: new Date("2017-01-01T00:00Z"),
+  model: carModelsData[72], //Santa-Fe
+  image:
+ "../public/images/SantaFe.png",
+  engineVolume: 2.4,
+  enginePower: 171,
+  year: 2016,
+  acceleration: 11.0,
+  color : "Белый",
+},
+{
+  id:"73",
+  startDate: new Date("2020-01-01T00:00Z"),
+  endDate: new Date("2022-01-01T00:00Z"),
+  model: carModelsData[73], //Solaris
+  image:
+ "../public/images/Solaris.png",
+  engineVolume: 1.6,
+  enginePower: 123,
+  year: 2022,
+  acceleration: 11.2,
+  color : "Белый",
+},
+//Kia
+{
+  id:"74",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[74], //K5
+  image:
+ "../public/images/K5.png",
+  engineVolume: 2.5,
+  enginePower: 194,
+  year: 2020,
+  acceleration: 8.6,
+  color : "Белый",
+},
+{
+  id:"75",
+  startDate: new Date("2012-01-01T00:00Z"),
+  endDate: new Date("2021-01-01T00:00Z"),
+  model: carModelsData[75], //Sorento
+  image:
+ "../public/images/Sorento.png",
+  engineVolume: 2.4,
+  enginePower: 175,
+  year: 2014,
+  acceleration: 11.0,
+  color : "Серый",
+},
+{
+  id:"76",
+  startDate: new Date("2020-01-01T00:00Z"),
+  endDate: new Date("2024-01-01T00:00Z"),
+  model: carModelsData[76], //Stinger
+  image:
+ "../public/images/Stinger.png",
+  engineVolume: 3.3,
+  enginePower: 370,
+  year: 2022,
+  acceleration: 5.3,
+  color : "Красный",
+},
+{
+  id:"77",
+  startDate: new Date("2021-03-01T00:00Z"),
+  endDate: new Date("2022-12-01T00:00Z"),
+  model: carModelsData[77], //Carnival
+  image:
+ "../public/images/Carnival.png",
+  engineVolume: 3.5,
+  enginePower: 249,
+  year: 2021,
+  acceleration: 8.5,
+  color : "Белый",
+},
+{
+  id:"78",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[78], //Mohave
+  image:
+ "../public/images/Mohave.png",
+  engineVolume: 3.0,
+  enginePower: 257,
+  year: 2021,
+  acceleration: 8.7,
+  color : "Белый",
+},
+//Nissan
+{
+  id:"79",
+  startDate: new Date("2016-01-01T00:00Z"),
+  endDate: new Date("2023-01-01T00:00Z"),
+  model: carModelsData[79], //GT-R
+  image:
+ "../public/images/GTR.png",
+  engineVolume: 3.8,
+  enginePower: 555,
+  year: 2016,
+  acceleration: 2.8,
+  color : "Синий",
+},
+{
+  id:"80",
+  startDate: new Date("2012-01-01T00:00Z"),
+  endDate: new Date("2013-11-01T00:00Z"),
+  model: carModelsData[80], //Qashqai
+  image:
+ "../public/images/Qashqai.png",
+  engineVolume: 1.6,
+  enginePower: 117,
+  year: 2012,
+  acceleration: 13.0,
+  color : "Черный",
+},
+{
+  id:"81",
+  startDate: new Date("2008-01-01T00:00Z"),
+  endDate: new Date("2013-01-01T00:00Z"),
+  model: carModelsData[81], //Note
+  image:
+ "../public/images/Note.png",
+  engineVolume: 1.6,
+  enginePower: 110,
+  year: 2010,
+  acceleration: 11.7,
+  color : "Оранжевый",
+},
+{
+  id:"82",
+  startDate: new Date("2019-01-01T00:00Z"),
+  endDate: new Date("2022-01-01T00:00Z"),
+  model: carModelsData[82], //Serena
+  image:
+ "../public/images/Serena.png",
+  engineVolume: 2.0,
+  enginePower: 150,
+  year: 2020,
+  acceleration: 10.0,
+  color : "Бежевый",
+},
+{
+  id:"83",
+  startDate: new Date("2014-01-01T00:00Z"),
+  endDate: new Date(),
+  model: carModelsData[83], //Navara
+  image:
+ "../public/images/Navara.png",
+  engineVolume: 2.3,
+  enginePower: 160,
+  year: 2015,
+  acceleration: 12.0,
+  color : "Черный",
+},
+//Skoda
+{
+  id:"84",
+  startDate: new Date("2021-04-01T00:00Z"),
+  endDate: new Date("2022-03-01T00:00Z"),
+  model: carModelsData[84], //Octavia
+  image:
+ "../public/images/Octavia.png",
+  engineVolume: 2.0,
+  enginePower: 190,
+  year: 2021,
+  acceleration: 7.4,
+  color : "Черный",
+},
+{
+  id:"85",
+  startDate: new Date("2021-09-01T00:00Z"),
+  endDate: new Date("2023-03-01T00:00Z"),
+  model: carModelsData[85], //Kodiaq
+  image:
+ "../public/images/Kodiaq.png",
+  engineVolume: 1.4,
+  enginePower: 150,
+  year: 2022,
+  acceleration: 9.6,
+  color : "Серый",
+},
+{
+  id:"86",
+  startDate: new Date("1998-01-01T00:00Z"),
+  endDate: new Date("2001-01-01T00:00Z"),
+  model: carModelsData[86], //Felicia
+  image:
+ "../public/images/Felicia.png",
+  engineVolume: 1.9,
+  enginePower: 64,
+  year: 1999,
+  acceleration: 17.5,
+  color : "Красный",
+},
+{
+  id:"87",
+  startDate: new Date("2010-08-01T00:00Z"),
+  endDate: new Date("2015-01-01T00:00Z"),
+  model: carModelsData[87], //Roomster
+  image:
+ "../public/images/Roomster.png",
+  engineVolume: 1.6,
+  enginePower: 105,
+  year: 2013,
+  acceleration: 12.1,
+  color : "Голубой",
+},
+{
+  id:"88",
+  startDate: new Date("2019-09-01T00:00Z"),
+  endDate: new Date("2023-03-01T00:00Z"),
+  model: carModelsData[88], // Superb
+  image:
+ "../public/images/SuperB.png",
+  engineVolume: 2.0,
+  enginePower: 190,
+  year: 2021,
+  acceleration: 7.7,
+  color : "Черный",
+},
+//Opel
+{
+  id:"89",
+  startDate: new Date("2015-01-01T00:00Z"),
+  endDate: new Date("2019-01-01T00:00Z"),
+  model: carModelsData[89], //Astra
+  image:
+ "../public/images/Astra.png",
+  engineVolume: 1.4,
+  enginePower: 100,
+  year: 2016,
+  acceleration: 12.3,
+  color : "Красный",
+},
+{
+  id:"90",
+  startDate: new Date("2019-12-01T00:00Z"),
+  endDate: new Date("2022-04-01T00:00Z"),
+  model: carModelsData[90], //GrandLand
+  image:
+ "../public/images/GrandLand.png",
+  engineVolume: 1.6,
+  enginePower: 150,
+  year: 2021,
+  acceleration: 11.1,
+  color : "Черный",
+},
+{
+  id:"91",
+  startDate: new Date("2006-02-01T00:00Z"),
+  endDate: new Date("2008-01-01T00:00Z"),
+  model: carModelsData[91], //Zafira
+  image:
+ "../public/images/Zafira.png",
+  engineVolume: 1.8,
+  enginePower: 140,
+  year: 2007,
+  acceleration: 13.0,
+  color : "Серый",
+},
+{
+  id:"92",
+  startDate: new Date("2005-12-01T00:00Z"),
+  endDate: new Date("2008-12-01T00:00Z"),
+  model: carModelsData[92], //Vectra
+  image:
+ "../public/images/Vectra.png",
+  engineVolume: 1.6,
+  enginePower: 105,
+  year: 2006,
+  acceleration: 12.6,
+  color : "Серый",
+},
+{
+  id:"93",
+  startDate: new Date("2011-04-01T00:00Z"),
+  endDate: new Date("2012-12-01T00:00Z"),
+  model: carModelsData[93], //Corsa
+  image:
+ "../public/images/Corsa.png",
+  engineVolume: 1.2,
+  enginePower: 85,
+  year: 2011,
+  acceleration: 13.6,
+  color : "Белый",
+},
 ];

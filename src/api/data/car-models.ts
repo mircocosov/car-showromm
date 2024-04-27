@@ -384,7 +384,7 @@ export const carModelsData: CarModel[] = [
   },
   {
     id: "61",
-    name: "Gladiator Texas Trail",
+    name: "Gladiator",
     brand: carBrandsData[12],
     class: carClassesData[5],
   },
@@ -465,7 +465,7 @@ export const carModelsData: CarModel[] = [
   //Kia
   {
     id: "74",
-    name: "K8",
+    name: "K5",
     brand: carBrandsData[15],
     class: carClassesData[4],
   },
