@@ -2,7 +2,7 @@
 
 .Home__container {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  gap: 42px 0;
-  background: $black;
+  justify-content: space-between;
 }

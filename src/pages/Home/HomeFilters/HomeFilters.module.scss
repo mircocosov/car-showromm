@@ -3,17 +3,16 @@
 .Home__ChooseCar__container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px 10%;
   padding: 0 10px;
+  gap: 30px;
+  margin: 10px;
 }
 
 .Home__ChooseCar__select {
-  width: 300px;
-  height: 50px;
+  max-width: 300px;
   cursor: pointer;
-  position: relative;
   background: $black;
   border: none;
   color: $white;

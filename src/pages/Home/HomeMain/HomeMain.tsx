@@ -13,7 +13,7 @@ export default function HomeMain({ modificationId }: Props) {
       </div>
 
       <div className={style.main__info_block_with_image}>
-        <div className={style.image}>
+        <div className={style.main_image_container}>
           <img
             src={carModificationsData[Number(modificationId) ?? 0].image}
             alt="Car"
@@ -43,9 +43,3 @@ export default function HomeMain({ modificationId }: Props) {
     </div>
   );
 }
-
-// объем двигателя
-// колво лошадинных сил
-// цвет
-// год выпуска
-// разгон до 100
