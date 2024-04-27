@@ -136,7 +136,7 @@ export const carModificationsData: CarModification[] = [
     acceleration: 3.6,
     color: "Желтый",
   },
-<<<<<<< HEAD
+
   //Ferrari
 
   {
