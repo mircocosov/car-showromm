@@ -36,11 +36,17 @@ export default function HomeModal() {
       >
         <span className={styles.title}>Заполните форму для связи с вами</span>
         <Input
+          inputClassName={styles.input}
           className={styles.input}
           type="text"
           label="Фамилия Имя Отчество"
         />
-        <Input className={styles.input} type="tel" label="Номер телефона" />
+        <Input
+          inputClassName={styles.input}
+          className={styles.input}
+          type="tel"
+          label="Номер телефона"
+        />
       </Modal>
     </div>
   );
