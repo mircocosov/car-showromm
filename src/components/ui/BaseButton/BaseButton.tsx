@@ -1,16 +1,16 @@
-import { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from 'react'
-import classNames from 'classnames'
-import styles from './BaseButton.module.scss'
+import { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from "react";
+import classNames from "classnames";
+import styles from "./BaseButton.module.scss";
 
 export interface BaseButtonProps {
-  className?: string
-  stopPropagation?: boolean
-  preventDefault?: boolean
-  hoverable?: boolean
-  disabled?: boolean
-  htmlType?: ButtonHTMLAttributes<HTMLButtonElement>['type']
-  children?: ReactNode
-  onClick?: MouseEventHandler<HTMLButtonElement>
+  className?: string;
+  stopPropagation?: boolean;
+  preventDefault?: boolean;
+  hoverable?: boolean;
+  disabled?: boolean;
+  htmlType?: ButtonHTMLAttributes<HTMLButtonElement>["type"];
+  children?: ReactNode;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
 export default function BaseButton({
@@ -19,19 +19,19 @@ export default function BaseButton({
   preventDefault,
   hoverable,
   disabled,
-  htmlType = 'button',
+  htmlType = "button",
   children,
   onClick: baseOnClick,
 }: BaseButtonProps) {
   const onClick: MouseEventHandler<HTMLButtonElement> = (e) => {
     if (stopPropagation) {
-      e.stopPropagation()
+      e.stopPropagation();
     }
     if (preventDefault) {
-      e.preventDefault()
+      e.preventDefault();
     }
-    baseOnClick?.(e)
-  }
+    baseOnClick?.(e);
+  };
 
   return (
     <button
@@ -44,5 +44,5 @@ export default function BaseButton({
     >
       {children}
     </button>
-  )
+  );
 }

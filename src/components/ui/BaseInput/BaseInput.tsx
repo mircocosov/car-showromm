@@ -10,37 +10,37 @@ import {
   useImperativeHandle,
   Ref,
   KeyboardEventHandler,
-} from 'react'
-import classNames from 'classnames'
-import styles from './BaseInput.module.scss'
+} from "react";
+import classNames from "classnames";
+import styles from "./BaseInput.module.scss";
 
 export type InputType =
-  | 'text'
-  | 'email'
-  | 'tel'
-  | 'number'
-  | 'password'
-  | 'search'
-  | 'url'
+  | "text"
+  | "email"
+  | "tel"
+  | "number"
+  | "password"
+  | "search"
+  | "url";
 
 export interface BaseInputProps<Type extends InputType> {
-  className?: string
-  inputClassName?: string
-  id?: string
-  type?: Type
-  error?: boolean
-  blocked?: boolean
-  placeholder?: string
-  prefix?: ReactNode
-  postfix?: ReactNode
-  value?: Type extends 'number' ? number | null : string | null
+  className?: string;
+  inputClassName?: string;
+  id?: string;
+  type?: Type;
+  error?: boolean;
+  blocked?: boolean;
+  placeholder?: string;
+  prefix?: ReactNode;
+  postfix?: ReactNode;
+  value?: Type extends "number" ? number | null : string | null;
   onChange?: (
-    val: Type extends 'number' ? number | null : string | null,
-  ) => void
-  onClick?: MouseEventHandler<HTMLDivElement>
-  onFocus?: FocusEventHandler<HTMLInputElement>
-  onBlur?: FocusEventHandler<HTMLInputElement>
-  onKeyPress?: KeyboardEventHandler<HTMLInputElement>
+    val: Type extends "number" ? number | null : string | null
+  ) => void;
+  onClick?: MouseEventHandler<HTMLDivElement>;
+  onFocus?: FocusEventHandler<HTMLInputElement>;
+  onBlur?: FocusEventHandler<HTMLInputElement>;
+  onKeyPress?: KeyboardEventHandler<HTMLInputElement>;
 }
 
 /*
@@ -51,7 +51,7 @@ TODO: can work wrong in case
 
 // TODO: password
 
-const BaseInput = <Type extends InputType = 'text'>(
+const BaseInput = <Type extends InputType = "text">(
   {
     className,
     inputClassName,
@@ -69,62 +69,62 @@ const BaseInput = <Type extends InputType = 'text'>(
     onBlur,
     onKeyPress: baseOnKeyPress,
   }: BaseInputProps<Type>,
-  ref: ForwardedRef<HTMLInputElement>,
+  ref: ForwardedRef<HTMLInputElement>
 ) => {
-  const inputRef = useRef<HTMLInputElement | null>(null)
+  const inputRef = useRef<HTMLInputElement | null>(null);
 
-  useImperativeHandle(ref, () => inputRef.current!)
+  useImperativeHandle(ref, () => inputRef.current!);
 
   const onChange: ChangeEventHandler<HTMLInputElement> = (e) => {
-    const val = e.target.value
-    if (val === '') {
-      baseOnChange?.(null)
-    } else if (type === 'number') {
-      baseOnChange?.(+val as Type extends 'number' ? number : string)
+    const val = e.target.value;
+    if (val === "") {
+      baseOnChange?.(null);
+    } else if (type === "number") {
+      baseOnChange?.(+val as Type extends "number" ? number : string);
     } else {
-      baseOnChange?.(val as Type extends 'number' ? number : string)
+      baseOnChange?.(val as Type extends "number" ? number : string);
     }
-  }
+  };
 
   const onKeyDown: KeyboardEventHandler<HTMLInputElement> = (e) => {
-    if (e.code === 'Escape') {
-      ;(e.target as HTMLInputElement).blur()
-      e.stopPropagation()
+    if (e.code === "Escape") {
+      (e.target as HTMLInputElement).blur();
+      e.stopPropagation();
     }
-    baseOnKeyPress?.(e)
-  }
+    baseOnKeyPress?.(e);
+  };
 
   const onClick: MouseEventHandler<HTMLDivElement> = (e) => {
     if (inputRef.current && e.target !== inputRef.current) {
-      inputRef.current.focus()
+      inputRef.current.focus();
     }
-    baseOnClick?.(e)
-  }
+    baseOnClick?.(e);
+  };
 
   const type = useMemo(
-    () => (baseType === 'number' ? 'text' : baseType),
-    [baseType],
-  )
+    () => (baseType === "number" ? "text" : baseType),
+    [baseType]
+  );
 
   const mode = useMemo(
-    () => (baseType === 'number' ? 'numeric' : undefined),
-    [baseType],
-  )
+    () => (baseType === "number" ? "numeric" : undefined),
+    [baseType]
+  );
 
   const pattern = useMemo(
-    () => (baseType === 'number' ? '-?[0-9]*(.[0-9]+)?' : undefined),
-    [baseType],
-  )
+    () => (baseType === "number" ? "-?[0-9]*(.[0-9]+)?" : undefined),
+    [baseType]
+  );
 
   const valueAsProp = useMemo(
     () =>
       value === null ||
       Number.isNaN(value) ||
       (value === undefined && baseOnChange)
-        ? ''
+        ? ""
         : value,
-    [value],
-  )
+    [value]
+  );
 
   return (
     <div
@@ -151,13 +151,13 @@ const BaseInput = <Type extends InputType = 'text'>(
       />
       {postfix}
     </div>
-  )
-}
+  );
+};
 
 export default (() => forwardRef(BaseInput))() as <
-  Type extends InputType = 'text',
+  Type extends InputType = "text"
 >(
   props: BaseInputProps<Type> & {
-    ref?: Ref<HTMLInputElement>
-  },
-) => ReactNode
+    ref?: Ref<HTMLInputElement>;
+  }
+) => ReactNode;

@@ -1,19 +1,16 @@
 import { useState } from "react";
 import Modal from "@/components/ui/Modal";
-import Button from "@/components/ui/Button";
-import Select from "@/components/ui/Select";
 import Input from "@/components/ui/Input";
 import styles from "./FiltersModal.module.scss";
 
 export default function HomeModal() {
   const [isShowed, setIsShowed] = useState(false);
-  const [isInnerShowed, setIsInnerShowed] = useState(false);
 
   return (
     <div className={styles.container}>
-      <h2>Modals</h2>
-
-      <Button onClick={() => setIsShowed(true)}>Open modal</Button>
+      <button onClick={() => setIsShowed(true)} className={styles.button}>
+        Buy
+      </button>
 
       <Modal
         isShowed={isShowed}
@@ -22,31 +19,28 @@ export default function HomeModal() {
         mobileHeader="Mobile modal"
         footer={
           <>
-            <Button onClick={() => setIsShowed(false)} type="secondary">
+            <button
+              onClick={() => setIsShowed(false)}
+              className={styles.modal__button}
+            >
               Cancel
-            </Button>
-            <Button onClick={() => setIsShowed(false)} type="primary">
+            </button>
+            <button
+              onClick={() => setIsShowed(false)}
+              className={styles.modal__button}
+            >
               Submit
-            </Button>
+            </button>
           </>
         }
       >
-        <Button type="text" onClick={() => setIsInnerShowed(true)}>
-          Open another one modal
-        </Button>
-        <Select label="select" />
-        <Input />
-      </Modal>
-
-      <Modal
-        isShowed={isInnerShowed && isShowed}
-        setIsShowed={setIsInnerShowed}
-        header="Inner modal"
-        width={400}
-      >
-        <p>It is second modal inside first modal</p>
-        <Select label="select" inputtable />
-        <Input />
+        <span className={styles.title}>Заполните форму для связи с вами</span>
+        <Input
+          className={styles.input}
+          type="text"
+          label="Фамилия Имя Отчество"
+        />
+        <Input className={styles.input} type="tel" label="Номер телефона" />
       </Modal>
     </div>
   );

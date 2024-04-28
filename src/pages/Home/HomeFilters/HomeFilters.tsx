@@ -5,6 +5,7 @@ import { useCarModifications } from "@/api/car-modification";
 import { useState } from "react";
 import style from "./HomeFilters.module.scss";
 import Select from "@/components/ui/Select";
+import Modal from "./FiltersModal/FiltersModal";
 
 interface Props {
   modificationId: string | null;
@@ -78,6 +79,7 @@ export default function HomeFilters({
         }))}
         placeholder="modification"
       />
+      <Modal />
     </div>
   );
 }
