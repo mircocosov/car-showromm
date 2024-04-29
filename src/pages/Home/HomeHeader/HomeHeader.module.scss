@@ -14,4 +14,11 @@
   cursor: pointer;
   display: flex;
   text-decoration: none;
+  opacity: 1;
+  transition: 0.8s;
+
+  @starting-style {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
 }

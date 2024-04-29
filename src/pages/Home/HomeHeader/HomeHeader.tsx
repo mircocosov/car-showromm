@@ -8,7 +8,7 @@ export default function HomeHeader() {
         HOME
       </Link>
 
-      <Link to={""}>
+      <Link to={""} className={style.container__button}>
         <svg
           enable-background="new 0 0 512 512"
           height="50px"

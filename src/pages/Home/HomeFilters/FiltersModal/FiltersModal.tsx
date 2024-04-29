@@ -15,8 +15,7 @@ export default function HomeModal() {
       <Modal
         isShowed={isShowed}
         setIsShowed={setIsShowed}
-        header="Modal"
-        mobileHeader="Mobile modal"
+        header="Заполните форму для связи"
         footer={
           <>
             <button
@@ -34,7 +33,6 @@ export default function HomeModal() {
           </>
         }
       >
-        <span className={styles.title}>Заполните форму для связи с вами</span>
         <Input
           inputClassName={styles.input}
           className={styles.input}
