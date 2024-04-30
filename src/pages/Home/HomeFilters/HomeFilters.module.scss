@@ -8,6 +8,13 @@
   padding: 0 10px;
   gap: 30px;
   margin: 10px;
+  opacity: 1;
+  transition: 0.7s;
+  transition-delay: 0.7s;
+
+  @starting-style {
+    opacity: 0;
+  }
 }
 
 .Home__ChooseCar__select {
