@@ -1,9 +1,5 @@
 @import "@/assets/css/config";
 
-img {
-  max-width: 50%;
-}
-
 .AboutUs__Container {
   display: flex;
   flex-direction: column;
@@ -11,6 +7,35 @@ img {
   padding-left: 120px;
   padding-right: 120px;
   gap: 30px;
+}
+
+.AboutUs__Infoblock {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 1;
+  transition: 0.5s;
+
+  @starting-style {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+#AboutUs_Second_Infoblock {
+  transition-delay: 0.3s;
+}
+
+#AboutUs_Third_Infoblock {
+  transition-delay: 0.5s;
+}
+
+#AboutUs_Fourth_Infoblock {
+  transition-delay: 0.7s;
+}
+
+#AboutUs_Fifth_Infoblock {
+  transition-delay: 0.9s;
 }
 
 .AboutUs__Title {
@@ -24,6 +49,7 @@ img {
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  justify-content: space-between;
 }
 
 .AboutUs__AdditionalInfo {
@@ -31,4 +57,10 @@ img {
   display: flex;
   text-wrap: balance;
   font-size: 18px;
+  transition: 0.5s;
+}
+
+.AboutUs__Photo {
+  max-width: 400px;
+  opacity: 1;
 }

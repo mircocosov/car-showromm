@@ -6,7 +6,7 @@ export default function AboutUs() {
       <h1 className={style.AboutUs__Title}>FullStack Autos</h1>
 
       {/*  Welcome */}
-      <div>
+      <div className={style.AboutUs__Infoblock}>
         <h2 className={style.AboutUs__Header2}>
           Добро пожаловать в наш автосалон
         </h2>
@@ -17,7 +17,8 @@ export default function AboutUs() {
             лучших производителей и обеспечить вам комфортную покупку.
           </p>
           <img
-            src="https://sun9-61.userapi.com/impg/0G9bXRIt6qUsKgNzt-X2eStKKOF6LSRxBc5Xog/B6rVIhMV4Is.jpg?size=640x640&quality=95&sign=ce683d109c270f7e6d9c953ffc843575&type=album"
+            className={style.AboutUs__Photo}
+            src="../public/images/220D.png"
             alt="photo"
           />
         </div>
@@ -25,7 +26,10 @@ export default function AboutUs() {
 
       {/* our choice */}
 
-      <div>
+      <div
+        className={style.AboutUs__Infoblock}
+        id={style.AboutUs_Second_Infoblock}
+      >
         <h2 className={style.AboutUs__Header2}>Наш выбор автомобилей</h2>
         <div className={style.AboutUs__Content}>
           <p className={style.AboutUs__AdditionalInfo}>
@@ -34,12 +38,19 @@ export default function AboutUs() {
             только лучшие модели, чтобы обеспечить вам комфорт и безопасность на
             дороге.
           </p>
-          <img src="../public/images/220D.png" alt="photo" />
+          <img
+            src="../public/images/220D.png"
+            alt="photo"
+            className={style.AboutUs__Photo}
+          />
         </div>
       </div>
       {/* our services */}
 
-      <div>
+      <div
+        className={style.AboutUs__Infoblock}
+        id={style.AboutUs_Third_Infoblock}
+      >
         <h2 className={style.AboutUs__Header2}>Услуги и сервис</h2>
         <div className={style.AboutUs__Content}>
           <p className={style.AboutUs__AdditionalInfo}>
@@ -47,13 +58,20 @@ export default function AboutUs() {
             открыты для вас с целью предложить высококачественные автомобили от
             лучших производителей и обеспечить вам комфортную покупку.
           </p>
-          <img src="../public/images/220D.png" alt="photo" />
+          <img
+            src="../public/images/220D.png"
+            alt="photo"
+            className={style.AboutUs__Photo}
+          />
         </div>
       </div>
 
       {/* finance */}
 
-      <div>
+      <div
+        className={style.AboutUs__Infoblock}
+        id={style.AboutUs_Fourth_Infoblock}
+      >
         <h2 className={style.AboutUs__Header2}>Финансовые возможности</h2>
         <div className={style.AboutUs__Content}>
           <p className={style.AboutUs__AdditionalInfo}>
@@ -61,13 +79,20 @@ export default function AboutUs() {
             помочь вам в этом. Мы предлагаем вам различные финансовые
             возможности, включая кредиты и лизинг.
           </p>
-          <img src="../public/images/220D.png" alt="photo" />
+          <img
+            src="../public/images/220D.png"
+            alt="photo"
+            className={style.AboutUs__Photo}
+          />
         </div>
       </div>
 
       {/* contact */}
 
-      <div>
+      <div
+        className={style.AboutUs__Infoblock}
+        id={style.AboutUs_Fifth_Infoblock}
+      >
         <h2 className={style.AboutUs__Header2}>Связь с нами</h2>
         <div className={style.AboutUs__Content}>
           <p className={style.AboutUs__AdditionalInfo}>
@@ -75,7 +100,11 @@ export default function AboutUs() {
             стесняйтесь связаться с нами, если у вас возникли какие-либо вопросы
             или вам нужно дополнительная информация.
           </p>
-          <img src="../public/images/220D.png" alt="photo" />
+          <img
+            src="../public/images/220D.png"
+            alt="photo"
+            className={style.AboutUs__Photo}
+          />
         </div>
       </div>
     </div>
