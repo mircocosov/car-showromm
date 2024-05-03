@@ -1,12 +1,26 @@
 @import "@/assets/css/config";
 
-.AboutUs__Container {
+.AboutUs__Containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.AboutUs__Main_Container {
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.AboutUs_Container_Leftside {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 120px;
-  padding-right: 120px;
-  gap: 30px;
+  gap: 70px;
 }
 
 .AboutUs__Infoblock {
@@ -60,7 +74,33 @@
   transition: 0.5s;
 }
 
+.AboutUs__Container_Rightside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 1;
+  justify-content: space-around;
+}
+
 .AboutUs__Photo {
   max-width: 400px;
   opacity: 1;
+  transition: 0.5s;
+
+  @starting-style {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+#AboutUs_First_Photo {
+  transition-delay: 0.2s;
+}
+
+#AboutUs_Second_Photo {
+  transition-delay: 0.4s;
+}
+
+#AboutUs_Third_Photo {
+  transition-delay: 0.6s;
 }
