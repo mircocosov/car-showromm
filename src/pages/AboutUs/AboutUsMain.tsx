@@ -96,7 +96,7 @@ export default function AboutUs() {
           <img
             className={style.AboutUs__Photo}
             id={style.AboutUs_First_Photo}
-            src="../public/images/220D.png"
+            src="../public/images/About1.png"
             alt="photo"
           />
           <img
