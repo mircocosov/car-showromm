@@ -38,6 +38,7 @@ export default function HomeMain({ modificationId }: Props) {
             {carModificationsData[Number(modificationId) ?? 0].acceleration}
           </p>
           <p>Цвет: {carModificationsData[Number(modificationId) ?? 0].color}</p>
+          <p>Цена : {carModificationsData[Number(modificationId) ?? 0].price} $</p>
         </div>
       </div>
     </div>

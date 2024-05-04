@@ -11,6 +11,7 @@ export interface CarModification {
   year: number;
   acceleration: number;
   color: string;
+  price: number;
 }
 
 export interface GetCarModificationParams {
