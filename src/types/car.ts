@@ -23,4 +23,5 @@ export interface CarModification {
   year: number;
   acceleration: number;
   color: string;
+  price: number;
 }
