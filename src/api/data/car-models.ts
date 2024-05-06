@@ -30,7 +30,7 @@ export const carModelsData: CarModel[] = [
   },
   {
     id: "4",
-    name: "Egoista",
+    name: "Diablo",
     brand: carBrandsData[0],
     class: carClassesData[0],
   },
@@ -272,7 +272,7 @@ export const carModelsData: CarModel[] = [
   },
   {
     id: "43",
-    name: "Flying Spure",
+    name: "Flying Spur",
     brand: carBrandsData[8],
     class: carClassesData[1],
   },

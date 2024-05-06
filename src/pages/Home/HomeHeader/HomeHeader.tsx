@@ -5,7 +5,7 @@ export default function HomeHeader() {
   return (
     <div className={style.header__container}>
       <Link to={""} className={style.container__button}>
-        HOME
+        ДОМОЙ
       </Link>
 
       <Link to={""} className={style.container__button}>
@@ -27,7 +27,7 @@ export default function HomeHeader() {
       </Link>
 
       <Link to={`contacts/AbWoutUs`} className={style.container__button}>
-        ABOUT US
+        О КОМПАНИИ
       </Link>
     </div>
   );

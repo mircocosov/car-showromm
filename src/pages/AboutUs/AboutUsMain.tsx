@@ -102,13 +102,13 @@ export default function AboutUs() {
           <img
             className={style.AboutUs__Photo}
             id={style.AboutUs_Second_Photo}
-            src="../public/images/220D.png"
+            src="../public/images/About2.png"
             alt="photo"
           />
           <img
             className={style.AboutUs__Photo}
             id={style.AboutUs_Third_Photo}
-            src="../public/images/220D.png"
+            src="../public/images/About3.png"
             alt="photo"
           />
         </div>

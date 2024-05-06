@@ -9,7 +9,7 @@ export default function HomeModal() {
   return (
     <div className={styles.container}>
       <button onClick={() => setIsShowed(true)} className={styles.button}>
-        Buy
+        Купить
       </button>
 
       <Modal
@@ -22,13 +22,13 @@ export default function HomeModal() {
               onClick={() => setIsShowed(false)}
               className={styles.modal__button}
             >
-              Cancel
+              Отмена
             </button>
             <button
               onClick={() => setIsShowed(false)}
               className={styles.modal__button}
             >
-              Submit
+              Подтвердить
             </button>
           </>
         }

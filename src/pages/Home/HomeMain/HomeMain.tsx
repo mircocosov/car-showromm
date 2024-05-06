@@ -22,12 +22,12 @@ export default function HomeMain({ modificationId }: Props) {
         </div>
         <div className={style.main__info_block}>
           <p>
-            Объем двигателя в литрах:{" "}
-            {carModificationsData[Number(modificationId) ?? 0].engineVolume}
+            Объем двигателя :{" "}
+            {carModificationsData[Number(modificationId) ?? 0].engineVolume} л.
           </p>
           <p>
-            Количество лошадинных сил:{" "}
-            {carModificationsData[Number(modificationId) ?? 0].enginePower}
+            Мощность:{" "}
+            {carModificationsData[Number(modificationId) ?? 0].enginePower} л.с.
           </p>
           <p>
             Год выпуска:{" "}
@@ -35,10 +35,10 @@ export default function HomeMain({ modificationId }: Props) {
           </p>
           <p>
             Разгон до 100 км/ч:{" "}
-            {carModificationsData[Number(modificationId) ?? 0].acceleration}
+            {carModificationsData[Number(modificationId) ?? 0].acceleration} с.
           </p>
           <p>Цвет: {carModificationsData[Number(modificationId) ?? 0].color}</p>
-          <p>Цена : {carModificationsData[Number(modificationId) ?? 0].price} $</p>
+          <p>Цена : {Intl.NumberFormat("ru-RU").format(carModificationsData[Number(modificationId) ?? 0].price)} ₽</p>
         </div>
       </div>
     </div>

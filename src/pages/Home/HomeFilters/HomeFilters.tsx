@@ -43,7 +43,7 @@ export default function HomeFilters({
           key: class_.id,
           value: class_.name,
         }))}
-        placeholder="class"
+        placeholder="Kласс"
       />
 
       <Select
@@ -52,7 +52,7 @@ export default function HomeFilters({
         value={brandId ?? undefined}
         inputtable
         items={carBrands.map((brand) => ({ key: brand.id, value: brand.name }))}
-        placeholder="brand"
+        placeholder="Бренд"
       />
 
       <Select
@@ -61,7 +61,7 @@ export default function HomeFilters({
         value={modelId ?? undefined}
         inputtable
         items={carModels.map((model) => ({ key: model.id, value: model.name }))}
-        placeholder="model"
+        placeholder="Модель"
       />
 
       <Select
@@ -77,7 +77,7 @@ export default function HomeFilters({
             modification.endDate.getMonth() + 1
           }.${modification.endDate.getFullYear()}`,
         }))}
-        placeholder="modification"
+        placeholder="Поколение"
       />
       <Modal />
     </div>
