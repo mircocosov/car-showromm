@@ -685,7 +685,7 @@ export const carModificationsData: CarModification[] = [
     year: 2013,
     acceleration: 7.6,
     color: "Белый",
-    price : 0,
+    price : 1500000,
   },
   {
     id: "52",
@@ -698,7 +698,7 @@ export const carModificationsData: CarModification[] = [
     year: 2004,
     acceleration: 10.0,
     color: "Серебристый",
-    price : 0,
+    price : 500000,
   },
   {
     id: "53",
@@ -711,7 +711,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 8.5,
     color: "Красный",
-    price : 0,
+    price : 3000000,
   },
   //Ford
   {
@@ -725,7 +725,7 @@ export const carModificationsData: CarModification[] = [
     year: 2018,
     acceleration: 11.0,
     color: "Серебристый",
-    price : 0,
+    price : 1150000,
   },
   {
     id: "55",
@@ -738,7 +738,7 @@ export const carModificationsData: CarModification[] = [
     year: 2015,
     acceleration: 5.7,
     color: "Красный",
-    price : 0,
+    price : 2700000,
   },
   {
     id: "56",
@@ -751,7 +751,7 @@ export const carModificationsData: CarModification[] = [
     year: 2019,
     acceleration: 7.0,
     color: "Синий",
-    price : 0,
+    price : 3850000,
   },
   {
     id: "57",
@@ -764,7 +764,7 @@ export const carModificationsData: CarModification[] = [
     year: 2017,
     acceleration: 10.7,
     color: "Серый",
-    price : 0,
+    price : 1750000,
   },
   {
     id: "58",
@@ -777,7 +777,7 @@ export const carModificationsData: CarModification[] = [
     year: 2019,
     acceleration: 12.6,
     color: "Белый",
-    price : 0,
+    price : 3400000,
   },
   //JEEP
   {
@@ -791,7 +791,7 @@ export const carModificationsData: CarModification[] = [
     year: 2015,
     acceleration: 8.2,
     color: "Черный",
-    price : 0,
+    price : 2900000,
   },
   {
     id: "60",
@@ -804,7 +804,7 @@ export const carModificationsData: CarModification[] = [
     year: 2020,
     acceleration: 8.8,
     color: "Синий",
-    price : 0,
+    price : 2100000,
   },
   {
     id: "61",
@@ -817,7 +817,7 @@ export const carModificationsData: CarModification[] = [
     year: 2022,
     acceleration: 8,
     color: "Серебристый",
-    price : 0,
+    price : 7000000,
   },
   {
     id: "62",
@@ -830,7 +830,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 6.8,
     color: "Красный",
-    price : 0,
+    price : 4500000,
   },
   {
     id: "63",
@@ -843,7 +843,7 @@ export const carModificationsData: CarModification[] = [
     year: 2020,
     acceleration: 11.0,
     color: "Оранжевый",
-    price : 0,
+    price : 1900000,
   },
   //Chevrolet
   {
@@ -857,7 +857,7 @@ export const carModificationsData: CarModification[] = [
     year: 2019,
     acceleration: 4.2,
     color: "Оранжевый",
-    price : 0,
+    price : 2500000,
   },
   {
     id: "65",
@@ -870,7 +870,7 @@ export const carModificationsData: CarModification[] = [
     year: 2014,
     acceleration: 10.1,
     color: "Черный",
-    price : 0,
+    price : 950000,
   },
   {
     id: "66",
@@ -883,7 +883,7 @@ export const carModificationsData: CarModification[] = [
     year: 2012,
     acceleration: 10.7,
     color: "Белый",
-    price : 0,
+    price : 700000,
   },
   {
     id: "67",
@@ -896,7 +896,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 8.7,
     color: "Красный",
-    price : 0,
+    price : 8900000,
   },
   {
     id: "68",
@@ -909,7 +909,7 @@ export const carModificationsData: CarModification[] = [
     year: 2012,
     acceleration: 11.6,
     color: "Серый",
-    price : 0,
+    price : 1000000,
   },
   //Hyundai
   {
@@ -923,7 +923,7 @@ export const carModificationsData: CarModification[] = [
     year: 2022,
     acceleration: 10.6,
     color: "Серебристый",
-    price : 0,
+    price : 4000000,
   },
   {
     id: "70",
@@ -936,7 +936,7 @@ export const carModificationsData: CarModification[] = [
     year: 2022,
     acceleration: 9.4,
     color: "Белый",
-    price : 0,
+    price : 4700000,
   },
   {
     id: "71",
@@ -949,7 +949,7 @@ export const carModificationsData: CarModification[] = [
     year: 2019,
     acceleration: 7.6,
     color: "Графит",
-    price : 0,
+    price : 3200000,
   },
   {
     id: "72",
@@ -962,7 +962,7 @@ export const carModificationsData: CarModification[] = [
     year: 2016,
     acceleration: 11.0,
     color: "Белый",
-    price : 0,
+    price : 2200000,
   },
   {
     id: "73",
@@ -975,7 +975,7 @@ export const carModificationsData: CarModification[] = [
     year: 2022,
     acceleration: 11.2,
     color: "Белый",
-    price : 0,
+    price : 1800000,
   },
   //Kia
   {
@@ -989,7 +989,7 @@ export const carModificationsData: CarModification[] = [
     year: 2020,
     acceleration: 8.6,
     color: "Белый",
-    price : 0,
+    price : 2200000,
   },
   {
     id: "75",
@@ -1002,7 +1002,7 @@ export const carModificationsData: CarModification[] = [
     year: 2014,
     acceleration: 11.0,
     color: "Серый",
-    price : 0,
+    price : 1950000,
   },
   {
     id: "76",
@@ -1015,7 +1015,7 @@ export const carModificationsData: CarModification[] = [
     year: 2022,
     acceleration: 5.3,
     color: "Красный",
-    price : 0,
+    price : 4100000,
   },
   {
     id: "77",
@@ -1028,7 +1028,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 8.5,
     color: "Белый",
-    price : 0,
+    price : 4150000,
   },
   {
     id: "78",
@@ -1041,7 +1041,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 8.7,
     color: "Белый",
-    price : 0,
+    price : 3500000,
   },
   //Nissan
   {
@@ -1055,7 +1055,7 @@ export const carModificationsData: CarModification[] = [
     year: 2016,
     acceleration: 2.8,
     color: "Синий",
-    price : 0,
+    price : 12500000,
   },
   {
     id: "80",
@@ -1068,7 +1068,7 @@ export const carModificationsData: CarModification[] = [
     year: 2012,
     acceleration: 13.0,
     color: "Черный",
-    price : 0,
+    price : 1000000,
   },
   {
     id: "81",
@@ -1081,7 +1081,7 @@ export const carModificationsData: CarModification[] = [
     year: 2010,
     acceleration: 11.7,
     color: "Оранжевый",
-    price : 0,
+    price : 600000,
   },
   {
     id: "82",
@@ -1094,7 +1094,7 @@ export const carModificationsData: CarModification[] = [
     year: 2020,
     acceleration: 10.0,
     color: "Бежевый",
-    price : 0,
+    price : 1650000,
   },
   {
     id: "83",
@@ -1107,7 +1107,7 @@ export const carModificationsData: CarModification[] = [
     year: 2015,
     acceleration: 12.0,
     color: "Черный",
-    price : 0,
+    price : 2100000,
   },
   //Skoda
   {
@@ -1121,7 +1121,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 7.4,
     color: "Черный",
-    price : 0,
+    price : 2450000,
   },
   {
     id: "85",
@@ -1134,7 +1134,7 @@ export const carModificationsData: CarModification[] = [
     year: 2022,
     acceleration: 9.6,
     color: "Серый",
-    price : 0,
+    price : 3460000,
   },
   {
     id: "86",
@@ -1147,7 +1147,7 @@ export const carModificationsData: CarModification[] = [
     year: 1999,
     acceleration: 17.5,
     color: "Красный",
-    price : 0,
+    price : 150000,
   },
   {
     id: "87",
@@ -1160,7 +1160,7 @@ export const carModificationsData: CarModification[] = [
     year: 2013,
     acceleration: 12.1,
     color: "Голубой",
-    price : 0,
+    price : 850000,
   },
   {
     id: "88",
@@ -1173,7 +1173,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 7.7,
     color: "Черный",
-    price : 0,
+    price : 3860000,
   },
   //Opel
   {
@@ -1187,7 +1187,7 @@ export const carModificationsData: CarModification[] = [
     year: 2016,
     acceleration: 12.3,
     color: "Красный",
-    price : 0,
+    price : 1100000,
   },
   {
     id: "90",
@@ -1200,7 +1200,7 @@ export const carModificationsData: CarModification[] = [
     year: 2021,
     acceleration: 11.1,
     color: "Черный",
-    price : 0,
+    price : 2600000,
   },
   {
     id: "91",
@@ -1213,7 +1213,7 @@ export const carModificationsData: CarModification[] = [
     year: 2007,
     acceleration: 13.0,
     color: "Серый",
-    price : 0,
+    price : 570000,
   },
   {
     id: "92",
@@ -1226,7 +1226,7 @@ export const carModificationsData: CarModification[] = [
     year: 2006,
     acceleration: 12.6,
     color: "Серый",
-    price : 0,
+    price : 480000,
   },
   {
     id: "93",
@@ -1239,6 +1239,6 @@ export const carModificationsData: CarModification[] = [
     year: 2011,
     acceleration: 13.6,
     color: "Белый",
-    price : 1000,
+    price : 600000,
   },
 ];
