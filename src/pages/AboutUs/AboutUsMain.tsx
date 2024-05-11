@@ -10,7 +10,7 @@ export default function AboutUs() {
 
         <div className={style.AboutUs_Container_Leftside}>
           <div className={style.AboutUs__Infoblock}>
-            <h2 className={style.AboutUs__Header2}>
+            <h2 className={style.AboutUs__Header}>
               Добро пожаловать в наш автосалон
             </h2>
             <div className={style.AboutUs__Content}>
@@ -29,7 +29,7 @@ export default function AboutUs() {
             className={style.AboutUs__Infoblock}
             id={style.AboutUs_Second_Infoblock}
           >
-            <h2 className={style.AboutUs__Header2}>Наш выбор автомобилей</h2>
+            <h2 className={style.AboutUs__Header}>Наш выбор автомобилей</h2>
             <div className={style.AboutUs__Content}>
               <p className={style.AboutUs__AdditionalInfo}>
                 Наш автосалон предлагает вам широкий выбор автомобилей от
@@ -46,7 +46,7 @@ export default function AboutUs() {
             className={style.AboutUs__Infoblock}
             id={style.AboutUs_Third_Infoblock}
           >
-            <h2 className={style.AboutUs__Header2}>Услуги и сервис</h2>
+            <h2 className={style.AboutUs__Header}>Услуги и сервис</h2>
             <div className={style.AboutUs__Content}>
               <p className={style.AboutUs__AdditionalInfo}>
                 Мы рады приветствовать вас на страницах нашего нового
@@ -63,7 +63,7 @@ export default function AboutUs() {
             className={style.AboutUs__Infoblock}
             id={style.AboutUs_Fourth_Infoblock}
           >
-            <h2 className={style.AboutUs__Header2}>Финансовые возможности</h2>
+            <h2 className={style.AboutUs__Header}>Финансовые возможности</h2>
             <div className={style.AboutUs__Content}>
               <p className={style.AboutUs__AdditionalInfo}>
                 Мы понимаем, что покупка автомобиля - это значимый шаг, и мы
@@ -79,7 +79,7 @@ export default function AboutUs() {
             className={style.AboutUs__Infoblock}
             id={style.AboutUs_Fifth_Infoblock}
           >
-            <h2 className={style.AboutUs__Header2}>Связь с нами</h2>
+            <h2 className={style.AboutUs__Header}>Связь с нами</h2>
             <div className={style.AboutUs__Content}>
               <p className={style.AboutUs__AdditionalInfo}>
                 Мы рады получать от вас сообщения и вопросы. Пожалуйста, не

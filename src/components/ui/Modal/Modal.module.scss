@@ -1,5 +1,23 @@
 @import "@/assets/css/config";
 
+html[data-theme="dark"] {
+  .modal {
+    background: white;
+  }
+  .modalHeader {
+    color: black;
+  }
+}
+
+html[data-theme="light"] {
+  .modal {
+    background: black;
+  }
+  .modalHeader {
+    color: white;
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -28,7 +46,6 @@
   padding: 32px;
   max-height: 90vh;
   overflow: auto;
-  background: $white;
   border-radius: $radius;
   transform: scale(0);
   transition: $transition;
@@ -43,7 +60,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  color: $black;
 }
 
 .modalTitle {

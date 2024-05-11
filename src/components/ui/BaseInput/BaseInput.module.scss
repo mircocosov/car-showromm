@@ -1,5 +1,17 @@
 @import "@/assets/css/config";
 
+html[data-theme="dark"] {
+  .input{
+    color: white;
+  }
+}
+
+html[data-theme="light"] {
+  .input{
+    color: black;
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -24,5 +36,4 @@
   outline: none;
   flex-grow: 1;
   background: none;
-  color: $white;
 }

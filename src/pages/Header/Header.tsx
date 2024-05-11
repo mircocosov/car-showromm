@@ -1,7 +1,19 @@
 import style from "./Header.module.scss";
 import { Link } from "react-router-dom";
+import {useTheme} from "@/hooks/useTheme.tsx"
 
 export default function Header() {
+
+  const {theme, setTheme } = useTheme();
+
+  const handleLightThemeClick = () => {
+    setTheme('light');
+  }
+
+  const handleDarkThemeClick = () => {
+    setTheme('dark');
+  }
+
   return (
     <div className={style.header__container}>
       <Link to={""} className={style.container__button}>
@@ -29,6 +41,15 @@ export default function Header() {
       <Link to={`contacts/AbWoutUs`} className={style.container__button}>
         О КОМПАНИИ
       </Link>
+
+      {/* <div>
+        <button onClick={handleLightThemeClick}>
+          Light
+        </button>
+        <button onClick={handleDarkThemeClick}>
+          Dark
+        </button>
+      </div> */}
     </div>
   );
 }

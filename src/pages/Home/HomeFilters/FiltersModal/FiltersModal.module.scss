@@ -1,11 +1,40 @@
 @import "@/assets/css/config";
 
+html[data-theme="dark"] {
+  .container, .input, .modal__button {
+    color: black;
+  }
+  .button, .modal__button:hover {
+    background: black;
+  }
+  .button:hover, .modal__button {
+    background: white;
+  }
+  .prefix, .modal__button:hover {
+    color: white;
+  }
+}
+
+html[data-theme="light"] {
+  .container, .input, .modal__button {
+    color: white;
+  }
+  .button, .modal__button:hover {
+    background: white;
+  }
+  .button:hover,  .modal__button {
+    background: black;
+  }
+  .prefix, .modal__button:hover {
+    color: black;
+  }
+}
+
 .container {
   display: flex;
   flex-direction: column;
   gap: 16px;
   flex: 1;
-  color: $black;
 }
 
 .button {
@@ -14,7 +43,6 @@
   justify-content: center;
   padding: 10px 12px;
   border: 1px solid $gray-4;
-  background: $black;
   color: $gray-3;
   border-radius: 8px;
   font-size: 16px;
@@ -24,26 +52,13 @@
   transition: 0.7s cubic-bezier(0.51, 0.92, 0.24, 1.15);
 }
 
-.button:hover {
-  background: $gray-6;
-}
-
 .title {
   font-weight: 600;
   font-size: 20px;
   line-height: 150%;
-  color: $gray-3;
   margin-bottom: 16px;
-  color: $black;
 }
 
-.prefix {
-  color: $black;
-}
-
-.input {
-  color: $black;
-}
 
 .modal__button {
   display: flex;
@@ -51,8 +66,6 @@
   justify-content: center;
   padding: 10px 12px;
   border: 1px solid $gray-4;
-  background: $white;
-  color: $black;
   border-radius: 8px;
   font-size: 16px;
   line-height: 160%;
@@ -61,7 +74,3 @@
   transition: 0.7s cubic-bezier(0.51, 0.92, 0.24, 1.15);
 }
 
-.modal__button:hover {
-  background: $black;
-  color: $white;
-}

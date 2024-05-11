@@ -1,5 +1,26 @@
 @import "@/assets/css/config";
 
+
+html[data-theme="dark"] {
+  .main__prefix {
+    color:white;
+  }
+  .main__info_block {
+    color: white;
+    background: rgba(99, 99, 99, 0.568);
+  }
+}
+
+html[data-theme="light"] {
+  .main__prefix {
+    color: black;
+  }
+  .main__info_block {
+    color: black;
+    background: rgba(168, 168, 168, 0.568);
+  }
+}
+
 .main__container {
   display: contents;
 }
@@ -18,7 +39,6 @@
 }
 
 .main__prefix {
-  color: $white;
   font-size: 48px;
 }
 
@@ -50,7 +70,6 @@
 .main__info_block {
   width: 25%;
   border-radius: 8% 0 0 8%;
-  background: rgba(99, 99, 99, 0.568);
   font-size: 28px;
   padding: 40px;
   display: flex;

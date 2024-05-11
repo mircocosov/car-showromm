@@ -1,5 +1,19 @@
 @import "@/assets/css/config";
 
+html[data-theme="dark"] {
+  .Home__ChooseCar__select {
+    color: white;
+    background: black;
+  }
+}
+
+html[data-theme="light"] {
+  .Home__ChooseCar__select {
+    color: black;
+    background: white;
+  }
+}
+
 .Home__ChooseCar__container {
   display: flex;
   flex-direction: row;
@@ -20,9 +34,7 @@
 .Home__ChooseCar__select {
   max-width: calc(100% / 5 - 30px * 4 / 5);
   cursor: pointer;
-  background: $black;
   border: none;
-  color: $white;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

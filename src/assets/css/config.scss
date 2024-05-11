@@ -17,6 +17,11 @@ $blue-light: #5cd5dd;
 
 // styles
 
+html[data-theme='dark'] {
+  --background-color: $black;
+  --color: $white;
+} 
+
 $radius: 8px;
 $scale: 1.15;
 $shadow: 0px 0px 20px 0px rgba(71, 91, 172, 0.25);

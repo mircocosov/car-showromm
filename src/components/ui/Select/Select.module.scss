@@ -1,5 +1,43 @@
 @import "@/assets/css/config";
 
+html[data-theme="dark"] {
+  .input{
+    color: white;
+  }
+  .item {
+    background: black;
+    color: white;
+    border: 1px solid black;
+
+    &:hover,
+    &.active {
+      background: $gray-3;
+    }
+  }
+  .items::-webkit-scrollbar-thumb {
+    background: white;
+  }
+}
+
+html[data-theme="light"] {
+  .input{
+    color: black;
+  }
+  .item {
+    background: white;
+    color: black;
+    border: 1px solid white;
+
+    &:hover,
+    &.active {
+      background: $gray-5;
+    }
+  }
+  .items::-webkit-scrollbar-thumb {
+    background: black;
+  }
+}
+
 .inputContainer {
   cursor: pointer;
 
@@ -19,7 +57,6 @@
 .input {
   .withPopover:not(.inputtable) & {
     pointer-events: none;
-    color: $black;
   }
 }
 
@@ -27,13 +64,7 @@
   max-height: 400px;
   width: 100%;
   overflow: auto;
-  background: $black;
-  border: 1px solid $white;
   transition: $transition border-color;
-
-  .withPopover.error & {
-    border-color: $red;
-  }
 
   .withPopover[data-placement="bottom"] & {
     border-radius: 0 0 $radius $radius;
@@ -52,7 +83,6 @@
 }
 
 .items::-webkit-scrollbar-thumb {
-  background: $white;
   border-radius: 100vh;
 }
 
@@ -60,11 +90,6 @@
   padding: 12px 14px;
   transition: $transition;
   cursor: pointer;
-
-  &:hover,
-  &.active {
-    background: $gray-1;
-  }
 }
 
 .itemsNothing {

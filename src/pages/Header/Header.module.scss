@@ -1,5 +1,23 @@
 @import "@/assets/css/config";
 
+html[data-theme="dark"] {
+  .container__button {
+    color: #fff;
+  }
+  svg > path {
+    fill: #fff;
+  }
+}
+
+html[data-theme="light"] {
+  .container__button {
+    color: #000;
+  }
+  svg > path {
+    fill: #000;
+  }
+}
+
 .header__container {
   display: flex;
   justify-content: space-around;
@@ -10,13 +28,12 @@
 
 .container__button {
   font-family: "releway-c";
-  color: $white;
   border: none;
   cursor: pointer;
   display: flex;
   text-decoration: none;
   opacity: 1;
-  transition: 0.8s;
+  transition: .7s;
 
   @starting-style {
     opacity: 0;
