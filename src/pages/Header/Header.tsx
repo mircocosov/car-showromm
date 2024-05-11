@@ -1,7 +1,7 @@
-import style from "./HomeHeader.module.scss";
+import style from "./Header.module.scss";
 import { Link } from "react-router-dom";
 
-export default function HomeHeader() {
+export default function Header() {
   return (
     <div className={style.header__container}>
       <Link to={""} className={style.container__button}>
