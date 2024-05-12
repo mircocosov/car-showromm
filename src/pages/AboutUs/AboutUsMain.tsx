@@ -91,26 +91,27 @@ export default function AboutUs() {
         </div>
 
         {/* Right Side */}
-
-        <div className={style.AboutUs__Container_Rightside}>
-          <img
-            className={style.AboutUs__Photo}
-            id={style.AboutUs_First_Photo}
-            src="../public/images/About1.png"
-            alt="photo"
-          />
-          <img
-            className={style.AboutUs__Photo}
-            id={style.AboutUs_Second_Photo}
-            src="../public/images/About2.png"
-            alt="photo"
-          />
-          <img
-            className={style.AboutUs__Photo}
-            id={style.AboutUs_Third_Photo}
-            src="../public/images/About3.png"
-            alt="photo"
-          />
+        <div className={style.AboutUs__MainContainer_Rightside}>
+          <div className={style.AboutUs__Container_Rightside}>
+            <img
+              className={style.AboutUs__Photo}
+              id={style.AboutUs_First_Photo}
+              src="../public/images/About1.png"
+              alt="photo"
+            />
+            <img
+              className={style.AboutUs__Photo}
+              id={style.AboutUs_Second_Photo}
+              src="../public/images/About2.png"
+              alt="photo"
+            />
+            <img
+              className={style.AboutUs__Photo}
+              id={style.AboutUs_Third_Photo}
+              src="../public/images/About3.png"
+              alt="photo"
+            />
+          </div>
         </div>
       </div>
     </div>

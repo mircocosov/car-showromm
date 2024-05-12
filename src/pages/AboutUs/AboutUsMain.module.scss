@@ -89,6 +89,14 @@ html[data-theme="light"] {
   transition: 0.5s;
 }
 
+.AboutUs__MainContainer_Rightside {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  opacity: 1;
+  justify-content: space-around;
+}
+
 .AboutUs__Container_Rightside {
   display: flex;
   flex-direction: column;
@@ -102,7 +110,6 @@ html[data-theme="light"] {
   max-width: 400px;
   opacity: 1;
   transition: 0.5s;
-  overflow: hidden;
 
   @starting-style {
     opacity: 0;
